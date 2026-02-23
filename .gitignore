@@ -11,6 +11,13 @@ test/
 audio_output/
 
 # ============================================
+# Allow samples folder (override *.wav above)
+# ============================================
+!samples/
+!samples/**
+!samples/**/*.wav
+
+# ============================================
 # Model Checkpoints & Weights
 # ============================================
 uzbek_stt_project/output/
