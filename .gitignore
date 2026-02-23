@@ -1,0 +1,86 @@
+# ============================================
+# Dataset & Audio Files (too large for GitHub)
+# ============================================
+train/
+dev/
+test/
+*.wav
+*.mp3
+*.flac
+*.ogg
+audio_output/
+
+# ============================================
+# Model Checkpoints & Weights
+# ============================================
+uzbek_stt_project/output/
+uzbek_stt_project/data/
+uzbek_stt_project/synthetic_dataset/
+uzbek_stt_project/whisper_models/
+uzbek_stt_project/evaluation_results.json
+uzbek_stt_project/__pycache__/
+
+uzbek_tts_project/training_output/
+uzbek_tts_project/training_output_ipa/
+uzbek_tts_project/training_output_ipa_v3/
+uzbek_tts_project/ipa_dataset/
+uzbek_tts_project/__pycache__/
+
+uzbek_voice_api/audio_output/
+uzbek_voice_api/__pycache__/
+
+# ============================================
+# Ngrok binary
+# ============================================
+ngrok-v3-stable-windows-amd64/
+ngrok-v3-stable-windows-amd64.zip
+*.exe
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+.venv/
+.env
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Jupyter
+# ============================================
+.ipynb_checkpoints/
+
+# ============================================
+# Logs & Cache
+# ============================================
+*.log
+*.cache
+cached_features/

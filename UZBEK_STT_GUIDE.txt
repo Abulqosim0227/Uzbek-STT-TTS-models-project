@@ -1,0 +1,548 @@
+================================================================================
+   UZBEK SPEECH-TO-TEXT (STT) — PRACTICAL GUIDE
+
+   Author: Abulqosim Rafiqov
+   Date: February 2026
+================================================================================
+
+Everything in this document is based on REAL code, REAL files, and REAL
+results from our project. Nothing imaginary.
+
+
+================================================================================
+STEP 1: INSTALL DEPENDENCIES
+================================================================================
+
+GPU we used: NVIDIA RTX 5070 Ti (16 GB VRAM, Blackwell architecture)
+
+IMPORTANT: RTX 5070 Ti (and all RTX 50-series cards) are Blackwell GPUs.
+Stable PyTorch does NOT support them yet. You MUST use PyTorch NIGHTLY
+with CUDA 12.8. This is the #1 headache with this card.
+
+Step 1a — Install NVIDIA driver 570+ and CUDA 12.8:
+  Download: https://developer.nvidia.com/cuda-12-8-0-download-archive
+
+Step 1b — Install PyTorch NIGHTLY (not stable!):
+
+  pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+
+  DO NOT use the normal "pip install torch" — it will install stable
+  PyTorch which does NOT support RTX 5070 Ti and you'll get errors like:
+    "NVIDIA GeForce RTX 5070 Ti with CUDA capability sm_120 is not compatible"
+
+  If the nightly wheel doesn't work, you may need to build from source:
+    https://github.com/pytorch/pytorch#from-source
+
+Step 1c — Install the rest:
+
+  pip install transformers peft datasets evaluate librosa soundfile
+  pip install accelerate numpy tqdm
+
+Step 1d — Verify everything works:
+
+  python -c "import torch; print(torch.cuda.is_available())"
+  # Should print: True
+
+  python -c "import torch; print(torch.cuda.get_device_name(0))"
+  # Should print: NVIDIA GeForce RTX 5070 Ti
+
+
+================================================================================
+STEP 2: GET THE DATASET
+================================================================================
+
+We used the ISSAI Uzbek Speech Corpus (USC).
+  Website: https://issai.nu.edu.kz/uzbek-speech-corpus/
+  HuggingFace: https://huggingface.co/datasets/ISSAI/uzbek_speech_corpus
+
+What's inside:
+  - 108,387 audio + text pairs total
+  - train/ folder: 100,767 pairs (for training)
+  - dev/ folder:   3,783 pairs (for validation)
+  - test/ folder:  3,837 pairs (for testing)
+  - Each pair = one .wav file + one .txt file
+  - 932 different speakers
+  - Clean studio recordings, 0.5 to 30 seconds each
+  - Total size: ~15 GB
+
+Example:
+  File: 1000201291_1_3686_4.wav  (175KB, ~4 seconds of audio)
+  Text: 1000201291_1_3686_4.txt  contains "Bugun ob-havo juda yaxshi"
+
+Folder structure:
+  ISSAI_USC/
+  ├── train/    <- 100,767 .wav + .txt pairs
+  ├── dev/      <- 3,783 .wav + .txt pairs
+  └── test/     <- 3,837 .wav + .txt pairs
+
+
+================================================================================
+STEP 3: PREPARE THE DATASET
+================================================================================
+
+Script: uzbek_stt_project/prepare_dataset.py
+
+This script does 5 things to clean the data before training:
+
+1. APOSTROPHE FIX (most important!)
+   Uzbek has special letters: o' and g' (with apostrophe).
+   The dataset has DIFFERENT apostrophe characters mixed in:
+     '  '  `  ʻ  ʼ  ´  ˈ
+   All get converted to one standard: '
+
+   If you skip this, the model thinks "o'zbek" and "o`zbek" are
+   two different words. They're not.
+
+2. CYRILLIC TO LATIN
+   Some transcriptions have Cyrillic mixed in.
+   Converts them all to Latin alphabet.
+
+3. LOWERCASE
+   "BUGUN" becomes "bugun"
+
+4. REMOVE JUNK CHARACTERS
+   Keeps only: a-z, apostrophe, space
+   Removes: numbers, punctuation, special symbols
+
+5. FILTER BY AUDIO LENGTH
+   Removes audio shorter than 0.5 seconds
+   Removes audio longer than 30 seconds
+   Whisper works best in this range.
+
+6. RESAMPLE TO 16kHz
+   Whisper requires 16kHz audio.
+
+Run it:
+  cd /mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_stt_project
+  python prepare_dataset.py
+
+Output:
+  data/uzbek_stt_dataset/  <- full cleaned dataset in HuggingFace format
+  data/uzbek_stt_sample/   <- 100 samples for quick testing
+
+
+================================================================================
+STEP 4: TRAIN THE MODEL
+================================================================================
+
+What we used:
+  Base model: OpenAI Whisper Large V3
+    URL: https://huggingface.co/openai/whisper-large-v3
+    Size: 1.5 billion parameters, ~3 GB
+    This model already understands 100+ languages including some Uzbek.
+    We fine-tune it to make it MUCH better at Uzbek.
+
+Training method: LoRA (Low-Rank Adaptation)
+    URL: https://huggingface.co/docs/peft
+    Paper: https://arxiv.org/abs/2106.09685
+
+  Why LoRA instead of training the full model:
+    - Full model = train 3 GB of parameters = needs huge GPU, slow
+    - LoRA = train only 91 MB of small "adapters" = fast, cheap
+    - LoRA keeps all the knowledge the base model already has
+    - 16 GB GPU is enough (instead of 40+ GB)
+
+Our exact LoRA settings:
+
+  r = 32                    <- rank, higher = more powerful but slower
+  lora_alpha = 64           <- scaling factor (usually r * 2)
+  target_modules:
+    - q_proj                <- query attention layer
+    - v_proj                <- value attention layer
+    - k_proj                <- key attention layer
+    - o_proj                <- output attention layer
+  lora_dropout = 0.05       <- prevents overfitting
+
+Our exact training settings:
+
+  batch_size = 4                       <- 4 samples per GPU at a time
+  gradient_accumulation_steps = 4      <- effective batch = 4*4 = 16
+  learning_rate = 1e-4                 <- 0.0001
+  max_steps = 5000                     <- total training steps
+  fp16 = True                          <- mixed precision (faster)
+  eval_steps = 500                     <- evaluate every 500 steps
+  save_steps = 1000                    <- save checkpoint every 1000 steps
+
+Script: uzbek_stt_project/finetune_whisper_synthetic.py
+
+Run it:
+  cd /mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_stt_project
+  python finetune_whisper_synthetic.py
+
+Our actual training results:
+
+  Step    WER (Word Error Rate)
+  ----    ---------------------
+  500     73.0%    <- just started, bad
+  1000    59.0%    <- improving
+  1500    49.8%    <- improving
+  2000    36.7%    <- BEST POINT
+  2500    42.8%    <- overfitting starts (getting worse)
+  5000    41.9%    <- final
+
+  Best result: 26.7% WER on clean audio
+  That means: ~73% of words are transcribed correctly
+
+What gets saved:
+  output/final_model/  (91 MB total)
+    adapter_config.json          <- LoRA settings
+    adapter_model.safetensors    <- trained weights (91 MB)
+    tokenizer.json               <- tokenizer
+    preprocessor_config.json     <- audio processing config
+    vocab.json                   <- vocabulary
+
+Training time: ~6-12 hours on a single GPU
+
+
+================================================================================
+STEP 5: USE THE TRAINED MODEL
+================================================================================
+
+OPTION A — Command line:
+
+  cd /mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_stt_project
+  python inference.py your_audio.wav
+
+OPTION B — Python code:
+
+  import librosa
+  import torch
+  from transformers import WhisperProcessor, WhisperForConditionalGeneration
+  from peft import PeftModel
+
+  # 1. Load the model
+  device = "cuda" if torch.cuda.is_available() else "cpu"
+  dtype = torch.float16 if torch.cuda.is_available() else torch.float32
+
+  base_model = WhisperForConditionalGeneration.from_pretrained(
+      "openai/whisper-large-v3",
+      torch_dtype=dtype,
+  )
+  model = PeftModel.from_pretrained(base_model, "output/final_model")
+  processor = WhisperProcessor.from_pretrained("output/final_model")
+  model = model.to(device)
+  model.eval()
+
+  # 2. Load audio file
+  audio, sr = librosa.load("test_audio.wav", sr=16000)
+
+  # 3. Feed to model
+  input_features = processor.feature_extractor(
+      audio, sampling_rate=16000, return_tensors="pt"
+  ).input_features.to(device, dtype=dtype)
+
+  forced_decoder_ids = processor.get_decoder_prompt_ids(
+      language="uz", task="transcribe"
+  )
+
+  with torch.no_grad():
+      predicted_ids = model.generate(
+          input_features,
+          forced_decoder_ids=forced_decoder_ids,
+          max_length=225,
+      )
+
+  # 4. Get the text
+  text = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
+  print(text)
+  # Output: "bugun ob-havo juda yaxshi"
+
+
+================================================================================
+STEP 6: IT VOCABULARY TRICK (PROMPT INJECTION)
+================================================================================
+
+Problem:
+  The model doesn't know IT terms well:
+  "Kubernetes" -> "kubernetis" or "kubernitis"
+  "Docker" -> "doker" or "daker"
+  "Oracle" -> random garbage
+
+Solution: Prompt Injection — NO RETRAINING NEEDED!
+
+Whisper has a feature where you can pass a "prompt" — a text hint that
+tells the model what kind of words to expect. If you feed it IT terms
+as a prompt, it recognizes them much better.
+
+Code (from our actual stt_engine.py):
+
+  IT_PROMPT = "Server, Kubernetes, Oracle, API, Cloud, Linux, Python, \
+               DevOps, Docker, Deploy, Backend, Frontend, Database, \
+               Cyber Security, GitHub, React, Node.js"
+
+  prompt_ids = processor.get_prompt_ids(IT_PROMPT, return_tensors="pt")
+  prompt_ids = prompt_ids.to(device)
+
+  with torch.no_grad():
+      outputs = model.generate(
+          input_features,
+          prompt_ids=prompt_ids,     # <- THIS IS THE MAGIC LINE
+          language="uz",
+          task="transcribe",
+          max_length=225,
+      )
+
+  text = processor.batch_decode(outputs.sequences, skip_special_tokens=True)[0]
+
+Result:
+  Before: "kubernetis serverni doker konteynirga deploy qiling"
+  After:  "Kubernetes serverni Docker konteynerga deploy qiling"
+
+This works for ANY domain, not just IT:
+  - Medicine: "Diagnoz, Retsept, Kasallik, Rentgen, Operatsiya..."
+  - Law: "Qonun, Kodeks, Sud, Advokat, Jazo..."
+  - Education: "Talaba, Professor, Diplom, Magistr, Dissertatsiya..."
+  Just change the prompt string. No retraining.
+
+
+================================================================================
+STEP 7: EVALUATE THE MODEL
+================================================================================
+
+Script: uzbek_stt_project/evaluate_models.py
+
+Run it:
+  python evaluate_models.py
+
+What it does:
+  1. Takes 50 audio files from the test set
+  2. Feeds each one to the model
+  3. Compares model output to the actual correct text
+  4. Calculates WER (Word Error Rate)
+  5. Saves results to evaluation_results.json
+
+Our actual results:
+
+  Test Type           WER (lower = better)
+  ---------           --------------------
+  Clean real audio    26.70%     <- best, 73% words correct
+  TTS (synthetic)     49.67%
+  Noisy audio         64.57%
+
+
+================================================================================
+STEP 8: RUN AS API + TELEGRAM BOT
+================================================================================
+
+The API server (FastAPI):
+
+  cd /mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_voice_api
+  pip install -r requirements.txt
+  python -m uvicorn main:app --host 0.0.0.0 --port 8000
+
+  Open browser: http://localhost:8000/dashboard
+  (Web interface with TTS and STT panels)
+
+API endpoints:
+  POST /api/stt       <- send audio file, get text back
+  POST /api/tts       <- send text, get audio back
+  GET  /api/health    <- check if models are loaded
+
+Test with curl:
+  curl -X POST http://localhost:8000/api/stt -F "file=@test_audio.wav"
+
+Telegram bot:
+  cd /mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_voice_api
+  python telegram_bot.py
+
+  Send voice message to bot -> it returns text
+  Send text to bot -> it returns voice message
+
+
+================================================================================
+STEP 9: THE DIALECT PROBLEM AND HOW TO SOLVE IT
+================================================================================
+
+The question from the government meeting:
+  In Tashkent people say "chelak" (bucket)
+  In Fergana they say "satil"
+  In Khorezm they say "paqir"
+  How does the model handle this?
+
+HONEST ANSWER:
+  The current model already handles dialects TO SOME DEGREE because:
+  - It was trained on 932 different speakers from various regions
+  - Whisper Large V3 is multilingual and tolerates pronunciation variation
+  - It transcribes WHAT IT HEARS — if someone says "satil", it writes "satil"
+
+  The model does NOT convert dialects. It transcribes faithfully.
+  "satil" stays "satil", "chelak" stays "chelak".
+
+HOW TO MAKE IT BETTER — 3 practical steps:
+
+--- Step A: Collect more regional audio ---
+
+  Easiest method: Use the Telegram bot we already have!
+  1. Send the bot to people in different regions
+  2. They send voice messages
+  3. We save the audio + correct text
+  4. Goal: 5,000-10,000 audio clips per region
+
+  Platform for large-scale collection:
+    Mozilla Common Voice: https://commonvoice.mozilla.org/
+
+--- Step B: Retrain with the new data ---
+
+  SAME SCRIPTS, MORE DATA. Nothing changes:
+  1. Put new audio + text files in the train/ folder
+  2. Run prepare_dataset.py again
+  3. Run the training script again
+
+  More diverse speakers = model understands more dialects.
+  Same code, same process, just more data.
+
+--- Step C: Dialect normalization (post-processing) ---
+
+  After the model transcribes, run the text through a simple dictionary
+  that converts dialect words to standard words.
+
+  THIS IS REAL WORKING CODE:
+
+  DIALECT_MAP = {
+      "satil": "chelak",
+      "paqir": "chelak",
+      "bedra": "chelak",
+      "bala": "bola",
+      "yahshi": "yaxshi",
+      "kelang": "keling",
+      "borasan": "borasiz",
+      "ketduk": "ketdik",
+  }
+
+  def normalize_dialect(text):
+      words = text.split()
+      result = []
+      for word in words:
+          result.append(DIALECT_MAP.get(word.lower(), word))
+      return " ".join(result)
+
+  # Example:
+  # Model transcribes: "menga bir satil suv bering"
+  # After normalization: "menga bir chelak suv bering"
+
+  This dictionary needs to be built by linguists or native speakers.
+  It's just a Python dictionary — anyone can add words to it.
+  The chatbot then understands ALL dialect variants.
+
+
+================================================================================
+PROJECT FILES — WHAT'S WHERE
+================================================================================
+
+ISSAI_USC/
+│
+├── train/                              <- 100,767 audio+text (training data)
+├── dev/                                <- 3,783 audio+text (validation)
+├── test/                               <- 3,837 audio+text (testing)
+│
+├── uzbek_stt_project/                  <- STT PROJECT
+│   ├── prepare_dataset.py              <- Step 3: clean the data
+│   ├── finetune_whisper_synthetic.py   <- Step 4: train the model
+│   ├── inference.py                    <- Step 5: use the model
+│   ├── evaluate_models.py             <- Step 7: test the model
+│   ├── output/
+│   │   └── final_model/                <- THE TRAINED MODEL (91 MB)
+│   │       ├── adapter_config.json
+│   │       ├── adapter_model.safetensors
+│   │       ├── tokenizer.json
+│   │       └── preprocessor_config.json
+│   └── evaluation_results.json         <- test results
+│
+├── uzbek_voice_api/                    <- API + BOT
+│   ├── main.py                         <- FastAPI server
+│   ├── stt_engine.py                   <- STT engine with prompt injection
+│   ├── tts_engine.py                   <- TTS engine
+│   ├── telegram_bot.py                 <- Telegram bot
+│   ├── dashboard.html                  <- Web interface
+│   └── requirements.txt               <- dependencies list
+│
+└── PROJECT_DOCUMENTATION.txt           <- detailed project documentation
+
+
+================================================================================
+USEFUL URLS
+================================================================================
+
+Dataset:
+  ISSAI Uzbek Speech Corpus
+    https://issai.nu.edu.kz/uzbek-speech-corpus/
+  Same dataset on HuggingFace
+    https://huggingface.co/datasets/ISSAI/uzbek_speech_corpus
+
+Base Model:
+  Whisper Large V3 on HuggingFace
+    https://huggingface.co/openai/whisper-large-v3
+  Whisper on GitHub
+    https://github.com/openai/whisper
+
+Training Tools:
+  LoRA / PEFT library
+    https://huggingface.co/docs/peft
+  LoRA research paper
+    https://arxiv.org/abs/2106.09685
+  HuggingFace Transformers
+    https://huggingface.co/docs/transformers
+  Official Whisper fine-tuning guide
+    https://huggingface.co/blog/fine-tune-whisper
+
+Fast Inference:
+  Faster-Whisper (4-5x faster than default)
+    https://github.com/SYSTRAN/faster-whisper
+
+Dialect Data Collection:
+  Mozilla Common Voice (crowdsourcing platform)
+    https://commonvoice.mozilla.org/
+
+API Framework:
+  FastAPI
+    https://fastapi.tiangolo.com/
+
+
+================================================================================
+HARDWARE REQUIREMENTS
+================================================================================
+
+Our actual setup:
+  - GPU: NVIDIA RTX 5070 Ti (16 GB VRAM, Blackwell architecture)
+  - CUDA: 12.8 (REQUIRED for RTX 50-series)
+  - PyTorch: Nightly build with cu128 (REQUIRED — stable doesn't work)
+  - NVIDIA Driver: 570+
+  - OS: Windows with WSL2
+  - Python: 3.9+
+  - RAM: 32 GB+
+  - Disk: 50 GB free
+  - Training time: ~6-12 hours for 5000 steps
+
+For using the model (inference):
+  - GPU: NVIDIA with 8+ GB VRAM (or CPU — 5-10x slower)
+  - RAM: 16 GB+
+  - Speed: ~1-3 seconds per audio clip on GPU
+
+Other GPUs that work WITHOUT the nightly headache:
+  - RTX 3090 (24 GB) — stable PyTorch works fine
+  - RTX 4090 (24 GB) — stable PyTorch works fine
+  - A100 (40/80 GB) — stable PyTorch works fine
+
+No GPU? Use Google Colab (free):
+  https://colab.research.google.com/
+  Free T4 GPU with 15GB VRAM — enough for both training and inference.
+  Bonus: No CUDA version headaches — it's pre-configured.
+
+
+================================================================================
+KEY NUMBERS
+================================================================================
+
+  GPU used:              NVIDIA RTX 5070 Ti (16 GB VRAM)
+  PyTorch version:       Nightly (cu128) — required for RTX 50-series
+  Base model size:       3 GB (Whisper Large V3, downloaded from HuggingFace)
+  Our trained adapter:   91 MB (LoRA weights — this is what we trained)
+  Dataset:               108,387 audio clips, ~100+ hours, 15 GB
+  Speakers:              932 different people
+  Training time:         ~6-12 hours
+  Best WER:              26.7% (73% of words correct on clean audio)
+  Inference speed:       ~1-3 seconds per audio clip (GPU)
+
+================================================================================
+Author: Abulqosim Rafiqov | February 2026
+================================================================================

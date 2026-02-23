@@ -1,0 +1,80 @@
+{
+    "output_path": "/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_tts_project/training_output_ipa_v3",
+    "run_name": "uzbek_tts_ipa_v3",
+    "run_description": "V3 Ferrari - Single Speaker IPA - Perfect Pronunciation",
+    "print_step": 50,
+    "plot_step": 100,
+    "model_param_stats": false,
+    "dashboard_logger": "tensorboard",
+    "save_on_interrupt": true,
+    "save_step": 5000,
+    "save_n_checkpoints": 5,
+    "save_checkpoints": true,
+    "save_best_after": 5000,
+    "print_eval": false,
+    "test_delay_epochs": 5,
+    "run_eval": true,
+    "mixed_precision": true,
+    "precision": "fp16",
+    "epochs": 3000,
+    "batch_size": 32,
+    "eval_batch_size": 16,
+    "grad_clip": [1000, 1000],
+    "lr": 0.0002,
+    "optimizer": "AdamW",
+    "optimizer_params": {
+        "betas": [0.8, 0.99],
+        "eps": 1e-09,
+        "weight_decay": 0.01
+    },
+    "model": "vits",
+    "num_loader_workers": 4,
+    "num_eval_loader_workers": 2,
+    "use_noise_augment": false,
+    "audio": {
+        "fft_size": 1024,
+        "sample_rate": 22050,
+        "win_length": 1024,
+        "hop_length": 256,
+        "num_mels": 80,
+        "mel_fmin": 0,
+        "mel_fmax": null
+    },
+    "use_phonemes": false,
+    "text_cleaner": "basic_cleaners",
+    "enable_eos_bos_chars": false,
+    "characters": {
+        "characters_class": "TTS.tts.utils.text.characters.Graphemes",
+        "vocab_dict": null,
+        "pad": "<PAD>",
+        "eos": "<EOS>",
+        "bos": "<BOS>",
+        "blank": "<BLNK>",
+        "characters": "bcdefghijklmnpqrstuvwzøŋɑɔʁʃʒχ",
+        "punctuations": "!'(),-.:;? ",
+        "phonemes": null,
+        "is_unique": true,
+        "is_sorted": true
+    },
+    "add_blank": true,
+    "batch_group_size": 0,
+    "min_audio_len": 1,
+    "max_audio_len": 100000000,
+    "min_text_len": 1,
+    "max_text_len": 500,
+    "compute_linear_spec": true,
+    "datasets": [
+        {
+            "formatter": "ljspeech",
+            "meta_file_train": "/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_tts_project/ipa_dataset/train_ipa_single.txt",
+            "meta_file_val": "/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_tts_project/ipa_dataset/val_ipa_single.txt",
+            "path": "/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/",
+            "language": "uz"
+        }
+    ],
+    "test_sentences": [
+        "sɑlɔm dunjɔ",
+        "men øzbek tilidɑ gɑplɑʃɑmɑn",
+        "bugun hɑvɔ jɑχʃi"
+    ]
+}

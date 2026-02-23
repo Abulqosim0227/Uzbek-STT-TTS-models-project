@@ -1,0 +1,19 @@
+# Systemd Service for Uzbek Voice API
+# Copy to: /etc/systemd/system/uzbek-voice-api.service
+# Then: sudo systemctl enable uzbek-voice-api && sudo systemctl start uzbek-voice-api
+
+[Unit]
+Description=Uzbek Voice API (TTS + STT)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_voice_api
+Environment="CUDA_VISIBLE_DEVICES=0"
+ExecStart=/usr/bin/python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

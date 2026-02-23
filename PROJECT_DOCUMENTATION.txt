@@ -1,0 +1,492 @@
+================================================================================
+           O'ZBEK OVOZ LOYIHASI - TRAINING JOURNEY & DOCUMENTATION
+                         By: Abulqosim Rafiqov
+                         Date: Yanvar 2025
+================================================================================
+
+================================================================================
+                              PART 1: THE DATA
+================================================================================
+
+DATASET: ISSAI Uzbek Speech Corpus (USC)
+Source: Institute of Smart Systems and Artificial Intelligence (ISSAI), Kazakhstan
+
+--------------------------------------------------------------------------------
+WHAT I HAD:
+--------------------------------------------------------------------------------
+Location: C:\Users\Admin\Desktop\voice_dataset\ISSAI_USC\
+
+Total Files: ~100,000+ audio recordings with transcriptions
+
+SPLITS:
+- train/  : ~100,767 pairs (wav + txt files)
+- dev/    : 3,783 pairs (validation set)
+- test/   : 3,837 pairs (test set)
+
+EACH SAMPLE:
+- .wav file: Audio recording (native Uzbek speaker)
+- .txt file: Transcription in Uzbek Latin script
+
+EXAMPLE:
+  File: 1000201291_1_3686_4.wav (175KB, ~4 seconds)
+  Text: "Bugun ob-havo juda yaxshi"
+
+--------------------------------------------------------------------------------
+DATA CHARACTERISTICS:
+--------------------------------------------------------------------------------
+- Language: Uzbek (Latin alphabet)
+- Speakers: Multiple native speakers
+- Audio Quality: Clean studio recordings
+- Sample Rate: 16kHz (original)
+- Duration: 0.5 - 30 seconds per clip
+- Total Hours: ~100+ hours of speech
+
+--------------------------------------------------------------------------------
+DATA CHALLENGES I FACED:
+--------------------------------------------------------------------------------
+1. APOSTROPHE PROBLEM:
+   Uzbek has special letters: O', G' (with apostrophe)
+   Dataset had DIFFERENT apostrophe types:
+   - ' (straight quote)
+   - ' (right single quote)
+   - ` (backtick)
+   - ʻ (modifier letter)
+
+   SOLUTION: Normalized ALL to single type "'"
+
+2. SOME CYRILLIC TEXT:
+   Some transcriptions had Cyrillic letters mixed in
+   SOLUTION: Created Cyrillic → Latin converter
+
+3. AUDIO DURATION:
+   Some files too short (<0.5s) or too long (>30s)
+   SOLUTION: Filtered them out during preprocessing
+
+
+================================================================================
+                        PART 2: TTS MODEL TRAINING
+================================================================================
+
+--------------------------------------------------------------------------------
+GOAL: Convert Uzbek text → Natural sounding speech
+--------------------------------------------------------------------------------
+
+MODEL CHOSEN: VITS (Variational Inference Text-to-Speech)
+Framework: Coqui TTS (open source)
+Why VITS: End-to-end, high quality, relatively fast training
+
+--------------------------------------------------------------------------------
+DATASET PREPARATION FOR TTS:
+--------------------------------------------------------------------------------
+
+1. Created LJSpeech-style metadata format:
+
+   metadata_train.txt:
+   audio_id|original_text|normalized_text
+
+   Example:
+   1000201291_1_3686_4|Bugun ob-havo juda yaxshi.|bugun ob-havo juda yaxshi.
+
+2. Selected SINGLE SPEAKER subset for cleaner training
+   - Picked one consistent voice from dataset
+   - Better quality than multi-speaker for first attempt
+
+3. Audio resampled to 22050 Hz (VITS requirement)
+
+--------------------------------------------------------------------------------
+V1 MODEL - PLAIN TEXT TRAINING:
+--------------------------------------------------------------------------------
+
+Config: config_single_speaker.json
+
+{
+  "model": "vits",
+  "batch_size": 32,
+  "epochs": 2000,
+  "audio": {
+    "sample_rate": 22050,
+    "num_mels": 80,
+    "hop_length": 256
+  },
+  "text_cleaner": "basic_cleaners",
+  "use_phonemes": false,        # <-- NO PHONEMES, just text
+  "mixed_precision": true
+}
+
+TRAINING:
+- Started: December 2, 2025
+- GPU: CUDA enabled
+- Checkpoints saved every 10,000 steps
+
+RESULT:
+- Final checkpoint: checkpoint_540000.pth (540,000 steps!)
+- Location: training_output/uzbek_tts_single_speaker-December-04-2025.../
+- Quality: Good, natural speech
+
+PROBLEM WITH V1:
+- Some Uzbek letters pronounced wrong
+- G' (voiced uvular) sounded like regular G
+- O' (rounded vowel) sounded like regular O
+- X (voiceless uvular) inconsistent
+
+--------------------------------------------------------------------------------
+V3 MODEL - IPA TRAINING (THE SOLUTION):
+--------------------------------------------------------------------------------
+
+IDEA: Train on IPA (International Phonetic Alphabet) instead of text
+This tells the model EXACTLY how to pronounce each sound!
+
+UZBEK → IPA CONVERSION:
+  o' → ø      (rounded vowel - like German "ö")
+  g' → ʁ      (voiced uvular fricative)
+  sh → ʃ      (like English "sh")
+  ch → tʃ     (like English "ch")
+  ng → ŋ      (like English "sing")
+  x  → χ      (voiceless uvular - like clearing throat)
+  j  → dʒ     (like English "j" in "job")
+  y  → j      (like English "y" in "yes")
+  a  → ɑ      (open back vowel)
+  o  → ɔ      (open-mid back rounded)
+
+EXAMPLE:
+  Text: "O'zbekiston go'zal mamlakat"
+  IPA:  "øzbekistɔn gøzɑl mɑmlɑkɑt"
+
+PROCESS:
+1. Created prepare_ipa_dataset.py script
+2. Converted ALL transcriptions to IPA
+3. Generated new metadata files:
+   - metadata_train_ipa.txt
+   - metadata_val_ipa.txt
+
+Config: config_ipa_v3.json
+- Same as V1 but with IPA text input
+
+TRAINING:
+- Started: December 10-12, 2025
+- Multiple training runs to optimize
+
+RESULT:
+- Better pronunciation of G', O', X, Q
+- More accurate Uzbek sounds
+- BUT: Model speaks FASTER (had to adjust LENGTH_SCALE = 3.0)
+
+--------------------------------------------------------------------------------
+TTS POST-PROCESSING (tts_engine.py):
+--------------------------------------------------------------------------------
+
+After generating audio, I apply:
+
+1. NOISE REDUCTION:
+   - Using noisereduce library
+   - Removes background hiss
+
+2. PADDING:
+   - Add 200ms silence at end
+   - Prevents audio cutoff
+
+3. FADE-OUT:
+   - Last 100ms fades to silence
+   - Smoother ending
+
+4. VOLUME NORMALIZATION:
+   - Normalize to 95% max
+   - Consistent loudness
+
+--------------------------------------------------------------------------------
+TEXT PREPROCESSING (text_preprocessor.py):
+--------------------------------------------------------------------------------
+
+Before sending text to TTS:
+
+1. NUMBER CONVERSION:
+   1970 → "ming to'qqiz yuz yetmish"
+   2024 → "ikki ming yigirma to'rt"
+   50%  → "ellik foiz"
+
+2. ENGLISH TECH WORDS:
+   "Python"     → "payton"
+   "JavaScript" → "javaskript"
+   "SQL"        → "es kyu el"
+   "API"        → "ey pi ay"
+   "GitHub"     → "git hab"
+
+3. FOR V3 (IPA):
+   Apply Uzbek → IPA conversion
+
+
+================================================================================
+                        PART 3: STT MODEL TRAINING
+================================================================================
+
+--------------------------------------------------------------------------------
+GOAL: Convert Uzbek speech → Text
+--------------------------------------------------------------------------------
+
+MODEL CHOSEN: OpenAI Whisper Large V3
+Fine-tuning Method: LoRA (Low-Rank Adaptation)
+
+Why Whisper: Best multilingual ASR, already knows some Uzbek
+Why LoRA: Train only small adapters (50MB), not full model (3GB)
+
+--------------------------------------------------------------------------------
+DATASET PREPARATION FOR STT:
+--------------------------------------------------------------------------------
+
+Script: prepare_dataset.py
+
+1. LOAD AUDIO + TEXT PAIRS:
+   - Matched .wav with .txt files
+   - Filtered out missing pairs
+
+2. TEXT NORMALIZATION:
+   - Standardized all apostrophes
+   - Converted any Cyrillic to Latin
+   - Lowercase everything
+   - Removed special characters (kept only a-z, ', space)
+
+3. AUDIO FILTERING:
+   - Removed too short (<0.5s)
+   - Removed too long (>30s)
+   - Whisper works best in this range
+
+4. RESAMPLING:
+   - All audio to 16kHz (Whisper requirement)
+
+5. SAVED AS HUGGINGFACE DATASET:
+   - uzbek_stt_dataset/ (full dataset)
+   - uzbek_stt_sample/ (100 samples for testing)
+
+--------------------------------------------------------------------------------
+LORA TRAINING SETUP:
+--------------------------------------------------------------------------------
+
+Script: finetune_whisper_synthetic.py
+
+BASE MODEL:
+- openai/whisper-large-v3
+
+LORA CONFIG:
+lora_config = LoraConfig(
+    r=32,                    # Rank (higher = more capacity)
+    lora_alpha=64,           # Scaling factor
+    target_modules=[         # Which layers to adapt
+        "q_proj",            # Query projection
+        "v_proj",            # Value projection
+        "k_proj",            # Key projection
+        "o_proj"             # Output projection
+    ],
+    lora_dropout=0.05,
+    bias="none"
+)
+
+TRAINING ARGUMENTS:
+{
+    "batch_size": 4,
+    "gradient_accumulation_steps": 4,  # Effective batch = 16
+    "learning_rate": 1e-4,
+    "max_steps": 5000,
+    "fp16": true,                       # Mixed precision
+    "eval_steps": 100,
+    "save_steps": 1000
+}
+
+TRAINING PROCESS:
+1. Load Whisper Large V3
+2. Wrap with LoRA adapters
+3. Train only adapters (freezes base model)
+4. Save checkpoints every 1000 steps
+5. Evaluate on test set
+
+CHECKPOINTS SAVED:
+- checkpoint-1000/
+- checkpoint-2000/
+- checkpoint-3000/
+- checkpoint-4000/
+- checkpoint-5000/
+- final_model/
+
+--------------------------------------------------------------------------------
+STT RESULTS:
+--------------------------------------------------------------------------------
+
+Evaluated on different audio types:
+
+| Audio Type        | WER (Word Error Rate) |
+|-------------------|----------------------|
+| Clean Real Audio  | 26.7%                | <-- BEST
+| TTS Audio         | 49.7%                |
+| Noisy Audio       | 64.6%                |
+
+26.7% WER = Model gets ~73% of words correct on clean audio
+
+--------------------------------------------------------------------------------
+THE SECRET WEAPON: IT VOCABULARY PROMPT INJECTION
+--------------------------------------------------------------------------------
+
+PROBLEM: Model didn't recognize IT terms well
+- "Kubernetes" → "kubernetis" or "kubernitis"
+- "Docker" → "doker" or "daker"
+- "Oracle" → random Uzbek words
+
+SOLUTION: Prompt Injection (NO RETRAINING NEEDED!)
+
+HOW IT WORKS:
+Whisper can take a "prompt" - previous context to guide transcription.
+By injecting IT vocabulary as prompt, model "sees" these words before transcribing!
+
+IT_PROMPT = "Server, Kubernetes, Oracle, API, Cloud, Linux, Python,
+             DevOps, Docker, Deploy, Backend, Frontend, Database,
+             Cyber Security, GitHub, React, Node.js"
+
+CODE:
+# Get prompt token IDs
+prompt_ids = processor.get_prompt_ids(IT_PROMPT, return_tensors="pt")
+
+# Generate with prompt injection
+outputs = model.generate(
+    input_features,
+    prompt_ids=prompt_ids,    # <-- THE MAGIC!
+    language="uz",
+    task="transcribe"
+)
+
+RESULT: IT terms recognized MUCH better without any retraining!
+
+
+================================================================================
+                    PART 4: PUTTING IT ALL TOGETHER
+================================================================================
+
+--------------------------------------------------------------------------------
+PROJECT STRUCTURE:
+--------------------------------------------------------------------------------
+
+ISSAI_USC/
+├── train/                    # Raw training data
+├── dev/                      # Validation data
+├── test/                     # Test data
+│
+├── uzbek_stt_project/        # STT project
+│   ├── prepare_dataset.py    # Data prep script
+│   ├── finetune_whisper_synthetic.py  # Training script
+│   ├── output/final_model/   # Trained LoRA weights
+│   └── evaluation_results.json
+│
+├── uzbek_tts_project/        # TTS project
+│   ├── config_single_speaker.json  # V1 config
+│   ├── config_ipa_v3.json          # V3 config
+│   ├── prepare_ipa_dataset.py      # IPA conversion
+│   ├── text_preprocessor.py        # Text processing
+│   ├── training_output/            # V1 model (540k)
+│   └── training_output_ipa_v3/     # V3 model (IPA)
+│
+└── uzbek_voice_api/          # Final application
+    ├── main.py               # FastAPI server
+    ├── telegram_bot.py       # Telegram bot
+    ├── stt_engine.py         # STT wrapper
+    ├── tts_engine.py         # TTS wrapper
+    └── jarvis_pro.py         # Voice assistant
+
+--------------------------------------------------------------------------------
+HOW THE FINAL SYSTEM WORKS:
+--------------------------------------------------------------------------------
+
+TELEGRAM BOT FLOW:
+
+User sends TEXT:
+  1. Bot receives text
+  2. Text preprocessed (numbers, tech words)
+  3. If V3: convert to IPA
+  4. VITS generates audio
+  5. Post-process (noise reduction, normalize)
+  6. Send voice message back
+
+User sends VOICE:
+  1. Bot downloads voice file
+  2. Audio loaded at 16kHz
+  3. Whisper + LoRA transcribes
+  4. IT prompt injection applied
+  5. Send text back to user
+
+--------------------------------------------------------------------------------
+TWO TTS VERSIONS EXPLAINED:
+--------------------------------------------------------------------------------
+
+/v1 COMMAND - V1 Model:
+- Input: Plain Uzbek text
+- Model: checkpoint_540000.pth
+- Speed: Normal (LENGTH_SCALE = 1.0)
+- Pros: Faster inference
+- Cons: Some sounds not perfect (G', O', X)
+
+/v3 COMMAND - V3 Model:
+- Input: Converted to IPA first
+- Model: Latest IPA checkpoint
+- Speed: Slower (LENGTH_SCALE = 3.0) because IPA model speaks fast
+- Pros: Better pronunciation
+- Cons: Slower, still training
+
+--------------------------------------------------------------------------------
+DEPENDENCIES USED:
+--------------------------------------------------------------------------------
+
+# TTS
+TTS>=0.17.0              # Coqui TTS (VITS model)
+torch>=2.0.0             # PyTorch
+soundfile>=0.12.0        # Audio I/O
+noisereduce>=2.0.0       # Noise reduction
+
+# STT
+transformers>=4.35.0     # HuggingFace (Whisper)
+peft>=0.6.0              # LoRA fine-tuning
+librosa>=0.10.0          # Audio processing
+accelerate>=0.24.0       # Training acceleration
+
+# API/Bot
+fastapi==0.104.1         # REST API
+uvicorn==0.24.0          # ASGI server
+python-telegram-bot>=20.0  # Telegram
+
+# Voice Assistant
+sounddevice>=0.4.6       # Real-time audio
+
+
+================================================================================
+                         PART 5: LESSONS LEARNED
+================================================================================
+
+1. DATA QUALITY > QUANTITY
+   - Clean data with consistent transcription is key
+   - Apostrophe normalization was CRITICAL for Uzbek
+
+2. LORA IS POWERFUL
+   - Trained only 50MB instead of 3GB
+   - Still got good results (26.7% WER)
+
+3. IPA IMPROVES PRONUNCIATION
+   - V3 model sounds more accurate
+   - Worth the extra conversion step
+
+4. PROMPT INJECTION IS A CHEAT CODE
+   - No training needed for IT vocabulary
+   - Just inject prompts at inference time!
+
+5. POST-PROCESSING MATTERS
+   - Raw TTS output has noise
+   - Simple noise reduction + normalization helps a lot
+
+
+================================================================================
+                              THE END
+================================================================================
+
+This project took ~2 weeks of work:
+- Week 1: Data preparation, TTS training (V1)
+- Week 2: STT training, IPA model (V3), API/Bot development
+
+Feel free to improve and build upon this!
+
+Muallif: Abulqosim Rafiqov
+Yanvar 2025
+================================================================================

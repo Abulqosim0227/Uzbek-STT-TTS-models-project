@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'zbek Ovoz API - Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1em;
+        }
+
+        /* Main Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 900px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Cards */
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .card-icon {
+            font-size: 2.5em;
+            margin-right: 15px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+        }
+
+        .card-subtitle {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        /* Form Elements */
+        textarea, input[type="text"] {
+            width: 100%;
+            background: rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 12px;
+            padding: 15px;
+            color: #fff;
+            font-size: 1em;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+
+        textarea:focus, input:focus {
+            outline: none;
+            border-color: #00d4ff;
+            box-shadow: 0 0 20px rgba(0,212,255,0.2);
+        }
+
+        textarea {
+            min-height: 120px;
+        }
+
+        /* Buttons */
+        .btn {
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            border: none;
+            padding: 15px 30px;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 1.1em;
+            cursor: pointer;
+            width: 100%;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 30px rgba(0,212,255,0.3);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            margin-top: 10px;
+        }
+
+        /* Audio Player */
+        .audio-container {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 12px;
+            display: none;
+        }
+
+        .audio-container.show {
+            display: block;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* Result Box */
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(0,212,255,0.1);
+            border-radius: 12px;
+            border-left: 4px solid #00d4ff;
+            display: none;
+        }
+
+        .result.show {
+            display: block;
+        }
+
+        .result-label {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .result-text {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* File Upload */
+        .file-upload {
+            border: 2px dashed rgba(255,255,255,0.3);
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-bottom: 15px;
+        }
+
+        .file-upload:hover {
+            border-color: #00d4ff;
+            background: rgba(0,212,255,0.05);
+        }
+
+        .file-upload.dragover {
+            border-color: #00d4ff;
+            background: rgba(0,212,255,0.1);
+        }
+
+        .file-upload-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .file-upload input {
+            display: none;
+        }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #00d4ff;
+        }
+
+        .stat-label {
+            font-size: 0.8em;
+            color: #888;
+        }
+
+        /* Loading */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255,255,255,0.1);
+            border-top-color: #00d4ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            margin-top: 40px;
+            color: #666;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .api-links a {
+            color: #00d4ff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .api-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Examples */
+        .examples {
+            margin-top: 15px;
+        }
+
+        .example-btn {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 0.85em;
+            cursor: pointer;
+            margin: 5px 5px 5px 0;
+            transition: all 0.2s;
+        }
+
+        .example-btn:hover {
+            background: rgba(0,212,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🎙️</div>
+            <h1>O'zbek Ovoz API</h1>
+            <p class="subtitle">Professional Text-to-Speech & Speech-to-Text for Uzbek Language</p>
+        </header>
+
+        <div class="grid">
+            <!-- TTS Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">📝➡️🔊</span>
+                    <div>
+                        <h2>Text-to-Speech</h2>
+                        <p class="card-subtitle">Matnni ovozga aylantirish</p>
+                    </div>
+                </div>
+
+                <textarea id="tts-input" placeholder="O'zbek tilida matn yozing..."></textarea>
+
+                <div style="margin-bottom: 15px;">
+                    <label style="color: #888; font-size: 0.9em;">Model:</label>
+                    <select id="tts-model" style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; padding: 10px 15px; color: #fff; font-size: 1em; margin-left: 10px;">
+                        <option value="v1">V1 - Tez (540k steps)</option>
+                        <option value="v3">V3 - IPA (aniq talaffuz)</option>
+                    </select>
+                </div>
+
+                <div class="examples">
+                    <button class="example-btn" onclick="setExample('Salom! Bugun ob-havo juda yaxshi.')">Salom</button>
+                    <button class="example-btn" onclick="setExample('Men 1970 yilda tug\\'ildim.')">Raqamlar</button>
+                    <button class="example-btn" onclick="setExample('SQL va Python dasturlash tillari.')">Tech</button>
+                    <button class="example-btn" onclick="setExample('Fuqarolar huquqlari muhofaza qilinadi.')">Fuqarolar</button>
+                    <button class="example-btn" onclick="setExample('G\\'ozlar go\\'zal bog\\'da o\\'ynaydi.')">G' tovushi</button>
+                    <button class="example-btn" onclick="setExample('Node JS va Redis bilan API yaratish.')">API</button>
+                </div>
+
+                <button class="btn" id="tts-btn" onclick="generateSpeech()">
+                    🎤 Ovoz yaratish
+                </button>
+
+                <div class="loading" id="tts-loading">
+                    <div class="spinner"></div>
+                    <p>Ovoz yaratilmoqda...</p>
+                </div>
+
+                <div class="audio-container" id="tts-result">
+                    <div class="result-label">Yaratilgan ovoz:</div>
+                    <audio id="tts-audio" controls></audio>
+                    <div id="tts-processed" style="margin-top: 15px; padding: 10px; background: rgba(0,0,0,0.2); border-radius: 8px; font-size: 0.9em;">
+                        <span style="color: #888;">Ishlov berilgan:</span> <span id="tts-processed-text"></span>
+                    </div>
+                    <div class="stats" style="grid-template-columns: repeat(3, 1fr);">
+                        <div class="stat">
+                            <div class="stat-value" id="tts-duration">0s</div>
+                            <div class="stat-label">Davomiyligi</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value" id="tts-time">0s</div>
+                            <div class="stat-label">Ishlov vaqti</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value" id="tts-model-used">V1</div>
+                            <div class="stat-label">Model</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STT Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🔊➡️📝</span>
+                    <div>
+                        <h2>Speech-to-Text</h2>
+                        <p class="card-subtitle">Ovozni matnga aylantirish</p>
+                    </div>
+                </div>
+
+                <div class="file-upload" id="file-drop" onclick="document.getElementById('audio-file').click()">
+                    <div class="file-upload-icon">📁</div>
+                    <p>Audio faylni yuklang yoki bu yerga tashlang</p>
+                    <p style="color: #666; font-size: 0.9em; margin-top: 10px;">WAV, MP3, OGG formatlar qo'llab-quvvatlanadi</p>
+                    <input type="file" id="audio-file" accept="audio/*" onchange="handleFileSelect(this)">
+                </div>
+
+                <div id="selected-file" style="margin-bottom: 15px; display: none;">
+                    <span style="color: #00d4ff;">📎</span> <span id="file-name"></span>
+                </div>
+
+                <button class="btn" id="stt-btn" onclick="transcribeAudio()" disabled>
+                    ✍️ Matnga aylantirish
+                </button>
+
+                <button class="btn btn-secondary" onclick="recordAudio()" id="record-btn">
+                    🎙️ Ovoz yozish
+                </button>
+
+                <div class="loading" id="stt-loading">
+                    <div class="spinner"></div>
+                    <p>Ovoz aniqlanmoqda...</p>
+                </div>
+
+                <div class="result" id="stt-result">
+                    <div class="result-label">Aniqlangan matn:</div>
+                    <div class="result-text" id="stt-text"></div>
+                    <div class="stats" style="grid-template-columns: repeat(2, 1fr);">
+                        <div class="stat">
+                            <div class="stat-value" id="stt-confidence">0%</div>
+                            <div class="stat-label">Ishonchlilik</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value" id="stt-time">0s</div>
+                            <div class="stat-label">Ishlov vaqti</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="api-links">
+                <a href="/docs">📚 API Documentation</a>
+                <a href="/redoc">📖 ReDoc</a>
+                <a href="/api/health">💚 Health Check</a>
+                <a href="/api/models">🤖 Models Info</a>
+            </div>
+            <p style="margin-top: 20px;">© 2025 O'zbek Ovoz API | ISSAI USC Dataset | VITS + Whisper</p>
+        </footer>
+    </div>
+
+    <script>
+        const API_BASE = '';
+        let selectedFile = null;
+        let mediaRecorder = null;
+        let audioChunks = [];
+
+        // Set example text
+        function setExample(text) {
+            document.getElementById('tts-input').value = text;
+        }
+
+        // TTS: Generate Speech
+        async function generateSpeech() {
+            const text = document.getElementById('tts-input').value.trim();
+            const model = document.getElementById('tts-model').value;
+
+            if (!text) {
+                alert("Iltimos, matn kiriting!");
+                return;
+            }
+
+            const btn = document.getElementById('tts-btn');
+            const loading = document.getElementById('tts-loading');
+            const result = document.getElementById('tts-result');
+
+            btn.disabled = true;
+            loading.classList.add('show');
+            result.classList.remove('show');
+
+            try {
+                const response = await fetch(`${API_BASE}/api/tts`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text, speed: 1.0, model })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    document.getElementById('tts-audio').src = data.audio_url;
+                    document.getElementById('tts-duration').textContent = data.duration.toFixed(1) + 's';
+                    document.getElementById('tts-time').textContent = data.processing_time.toFixed(2) + 's';
+                    document.getElementById('tts-processed-text').textContent = data.processed_text || text;
+                    document.getElementById('tts-model-used').textContent = data.model || 'V1';
+                    result.classList.add('show');
+                } else {
+                    alert("Xatolik: " + (data.detail || "Noma'lum xatolik"));
+                }
+            } catch (error) {
+                alert("Server bilan bog'lanishda xatolik: " + error.message);
+            }
+
+            btn.disabled = false;
+            loading.classList.remove('show');
+        }
+
+        // File handling
+        function handleFileSelect(input) {
+            if (input.files.length > 0) {
+                selectedFile = input.files[0];
+                document.getElementById('file-name').textContent = selectedFile.name;
+                document.getElementById('selected-file').style.display = 'block';
+                document.getElementById('stt-btn').disabled = false;
+            }
+        }
+
+        // Drag and drop
+        const dropZone = document.getElementById('file-drop');
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('dragover');
+        });
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('dragover');
+        });
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('dragover');
+            if (e.dataTransfer.files.length > 0) {
+                selectedFile = e.dataTransfer.files[0];
+                document.getElementById('file-name').textContent = selectedFile.name;
+                document.getElementById('selected-file').style.display = 'block';
+                document.getElementById('stt-btn').disabled = false;
+            }
+        });
+
+        // STT: Transcribe Audio
+        async function transcribeAudio() {
+            if (!selectedFile) {
+                alert("Iltimos, audio fayl yuklang!");
+                return;
+            }
+
+            const btn = document.getElementById('stt-btn');
+            const loading = document.getElementById('stt-loading');
+            const result = document.getElementById('stt-result');
+
+            btn.disabled = true;
+            loading.classList.add('show');
+            result.classList.remove('show');
+
+            try {
+                const formData = new FormData();
+                formData.append('audio', selectedFile);
+
+                const response = await fetch(`${API_BASE}/api/stt`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    document.getElementById('stt-text').textContent = data.text;
+                    document.getElementById('stt-confidence').textContent = Math.round(data.confidence * 100) + '%';
+                    document.getElementById('stt-time').textContent = data.processing_time.toFixed(2) + 's';
+                    result.classList.add('show');
+                } else {
+                    alert("Xatolik: " + (data.detail || "Noma'lum xatolik"));
+                }
+            } catch (error) {
+                alert("Server bilan bog'lanishda xatolik: " + error.message);
+            }
+
+            btn.disabled = false;
+            loading.classList.remove('show');
+        }
+
+        // Record Audio
+        async function recordAudio() {
+            const btn = document.getElementById('record-btn');
+
+            if (mediaRecorder && mediaRecorder.state === 'recording') {
+                // Stop recording
+                mediaRecorder.stop();
+                btn.textContent = '🎙️ Ovoz yozish';
+                btn.style.background = '';
+                return;
+            }
+
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                mediaRecorder = new MediaRecorder(stream);
+                audioChunks = [];
+
+                mediaRecorder.ondataavailable = (e) => {
+                    audioChunks.push(e.data);
+                };
+
+                mediaRecorder.onstop = () => {
+                    const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    selectedFile = new File([audioBlob], 'recording.wav', { type: 'audio/wav' });
+                    document.getElementById('file-name').textContent = 'recording.wav (yozilgan)';
+                    document.getElementById('selected-file').style.display = 'block';
+                    document.getElementById('stt-btn').disabled = false;
+                    stream.getTracks().forEach(track => track.stop());
+                };
+
+                mediaRecorder.start();
+                btn.textContent = '⏹️ To\'xtatish';
+                btn.style.background = 'linear-gradient(90deg, #ff4444, #ff0000)';
+
+            } catch (error) {
+                alert("Mikrofonga ruxsat berilmadi: " + error.message);
+            }
+        }
+
+        // Enter key to submit
+        document.getElementById('tts-input').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                generateSpeech();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,497 @@
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41905_1|hali ham qaytib ravshanni yuboraymi deb ham o'yladi|hali ham qaytib ravshanni yuboraymi deb ham o'yladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41906_1|eri qayoqda ekan balki borgunimcha kelib qolar|eri qayoqda ekan balki borgunimcha kelib qolar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41907_1|degan fikrda iziga qaytmadi|degan fikrda iziga qaytmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41908_1|elchinning farg'onaga ketganini bilganida balki qaytar shu bilan tashvishlardan qutulib qolarmidi|elchinning farg'onaga ketganini bilganida balki qaytar shu bilan tashvishlardan qutulib qolarmidi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41909_1|asadbek sharif namozov chiqib ketgach uyiga qaytmoqchi edi|asadbek sharif namozov chiqib ketgach uyiga qaytmoqchi edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41910_1|chuvrindi eski mahalladagi amri ma'ruf ga taklif etilganlarini eslatgach noiloj ko'ndi|chuvrindi eski mahalladagi amri ma'ruf ga taklif etilganlarini eslatgach noiloj ko'ndi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41911_1|bormasam arazlabdi deyishmasin degan fikrda yo'lga chiqdi|bormasam arazlabdi deyishmasin degan fikrda yo'lga chiqdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41912_1|bolaligi o'tgan uydan ikki eshik narida odamlar to'planib turishgan edi|bolaligi o'tgan uydan ikki eshik narida odamlar to'planib turishgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41913_1|mashinani beriroqda to'xtatib tushishlari bilan to'pdan bir kishi ajralib ular tomon yurdi|mashinani beriroqda to'xtatib tushishlari bilan to'pdan bir kishi ajralib ular tomon yurdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41914_1|asadbek jalilni tanidi|asadbek jalilni tanidi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41915_1|qarab tur hozir sasishni boshlaydi dedi chuvrindiga|qarab tur hozir sasishni boshlaydi dedi chuvrindiga
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41916_1|xo'p deyaverasiz da dedi chuvrindi kulimsirab|xo'p deyaverasiz da dedi chuvrindi kulimsirab
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41917_1|bu mahallada ham odamlar turishini bilarmiding dedi jalil salom alik qilmay|bu mahallada ham odamlar turishini bilarmiding dedi jalil salom alik qilmay
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41918_1|kuttirish ham evi bilan da|kuttirish ham evi bilan da
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41919_1|besh yarimga kel degandan keyin kel da|besh yarimga kel degandan keyin kel da
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41920_1|omonmisan o'zing ishqilib|omonmisan o'zing ishqilib
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41921_1|aka xizmatchilik da ish chiqib qoldi dedi chuvrindi asadbek o'rniga javob berib|aka xizmatchilik da ish chiqib qoldi dedi chuvrindi asadbek o'rniga javob berib
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41922_1|yaxshi hamki ish sh sh deydi|yaxshi hamki ish sh sh deydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41923_1|desa dumingni tutqazmas ekansan da a dedi jalil gapni hazilga burib|desa dumingni tutqazmas ekansan da a dedi jalil gapni hazilga burib
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41924_1|yuraqol sobitxon ma'ruza qilyapti|yuraqol sobitxon ma'ruza qilyapti
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41925_1|qo'qonga ketishi kerak ekan zo'rlab olib qoldik|qo'qonga ketishi kerak ekan zo'rlab olib qoldik
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41926_1|qo'qonda nima qilar ekan dedi asadbek|qo'qonda nima qilar ekan dedi asadbek
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41927_1|ota onasi hozir o'sha yerda turarkan|ota onasi hozir o'sha yerda turarkan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41928_1|otpuskaga chiqibdi|otpuskaga chiqibdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41929_1|bir oy uyida turar ekan|bir oy uyida turar ekan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41930_1|lekin ishim kam bo'lganida ham bormas edim|lekin ishim kam bo'lganida ham bormas edim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41931_1|sababini o'zing bilasan|sababini o'zing bilasan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41932_1|sababini manam bilay chi qani ayt chi tillaring muncha shirin|sababini manam bilay chi qani ayt chi tillaring muncha shirin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41933_1|mening tilim shirin oyi|mening tilim shirin oyi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41934_1|mana buningizniki zahar|mana buningizniki zahar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41936_1|buningiz kasalmas|buningiz kasalmas
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41937_1|buni miyasinimas tilini davolash kerak|buni miyasinimas tilini davolash kerak
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41938_1|shunaqa do'xtir bo'lsa birga boraylik dedi anvar quvlik bilan suyakli tilingizni sal yumshatib bersin|shunaqa do'xtir bo'lsa birga boraylik dedi anvar quvlik bilan suyakli tilingizni sal yumshatib bersin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41939_1|tilingiz a kvadrat b kvadratdan boshqani aytishga yaramaydi|tilingiz a kvadrat b kvadratdan boshqani aytishga yaramaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41940_1|oyi meni urishishga chaqirtiruvdingizmi dedi habib bir oz achchiqlanib|oyi meni urishishga chaqirtiruvdingizmi dedi habib bir oz achchiqlanib
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41941_1|seni urishib turish kerak|seni urishib turish kerak
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41942_1|hamma ayb o'zingda|hamma ayb o'zingda
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41943_1|ukam o'zi xohlagan kasbni tanlasin deding yoningga olmading|ukam o'zi xohlagan kasbni tanlasin deding yoningga olmading
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41944_1|o'zing do'xtir bo'lib olib gerdayi ib yuribsan|o'zing do'xtir bo'lib olib gerdayi ib yuribsan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41945_1|yetti yot begona bolalarni olim qilib yubording|yetti yot begona bolalarni olim qilib yubording
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41946_1|ukangning biri ikki bo'lmay sarson|ukangning biri ikki bo'lmay sarson
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41947_1|buningiz karra jadvalini bilganda ham mayli edi|buningiz karra jadvalini bilganda ham mayli edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41948_1|ha nimaga ishshayasan|ha nimaga ishshayasan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41949_1|qo'ying bu gaplarni|qo'ying bu gaplarni
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41950_1|oyim bir gapirdilar da|oyim bir gapirdilar da
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41951_1|maskovga ketyapsizmi|maskovga ketyapsizmi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41952_1|ha mguda bir oy dars o'taman|ha mguda bir oy dars o'taman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41953_1|domlangiz hali ham chaqiryaptimi|domlangiz hali ham chaqiryaptimi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41955_1|maskovda haqiqat bor deb o'ylaysizmi|maskovda haqiqat bor deb o'ylaysizmi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41956_1|menga haqiqat emas ilmiy ish uchun sharoit kerak|menga haqiqat emas ilmiy ish uchun sharoit kerak
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41957_1|haqiqat yo'q yerda sharoit ham bo'lmaydi|haqiqat yo'q yerda sharoit ham bo'lmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41958_1|domlangiz boshingizni silagani bilgan qora quralar nasibamizni yeb ketyapti deydiganlar ko'p u yerda|domlangiz boshingizni silagani bilgan qora quralar nasibamizni yeb ketyapti deydiganlar ko'p u yerda
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41959_1|sen safsatangni qo'y|sen safsatangni qo'y
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41960_1|hozir bittasi kelib boshimni qotiruvdi|hozir bittasi kelib boshimni qotiruvdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41961_1|xonzoda kirib ularning suhbati uzildi|xonzoda kirib ularning suhbati uzildi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41962_1|mehmonxonaga dasturxon soldim|mehmonxonaga dasturxon soldim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41963_1|ey xonzodaxon eringizni olib chiqib ketmaguningizcha ko'nglingiz tinchimadi ya|ey xonzodaxon eringizni olib chiqib ketmaguningizcha ko'nglingiz tinchimadi ya
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41964_1|risolat kampir shunday deb fotiha o'qidi da o'rnidan turdi|risolat kampir shunday deb fotiha o'qidi da o'rnidan turdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41965_1|ikki o'g'il ikki qanotida hovliga chiqdi|ikki o'g'il ikki qanotida hovliga chiqdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41966_1|onaga ikki qanot bo'lib turgan o'g'illarning faqatgina sohasi boshqa emas dunyolari ham o'zgacha|onaga ikki qanot bo'lib turgan o'g'illarning faqatgina sohasi boshqa emas dunyolari ham o'zgacha
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41967_1|katta qanot ohista uchishni xush ko'radi|katta qanot ohista uchishni xush ko'radi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41968_1|kichigi charx urishni o'zini dovul bag'riga urishni istaydi|kichigi charx urishni o'zini dovul bag'riga urishni istaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41969_1|ona uchun esa olimi ham isyonchisi ham bir har ikkovi farzand|ona uchun esa olimi ham isyonchisi ham bir har ikkovi farzand
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41970_1|qosh ko'z onaga o'xshasa da fe'l tog'alariga tortgan|qosh ko'z onaga o'xshasa da fe'l tog'alariga tortgan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41971_1|anvar katta tog'aga o'xshaydi|anvar katta tog'aga o'xshaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41972_1|haqiqat izlab topgan ko'chasi uni turmaga boshlagan edi|haqiqat izlab topgan ko'chasi uni turmaga boshlagan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41973_1|chunki uning siyosiy mahbus degan nomi bor|chunki uning siyosiy mahbus degan nomi bor
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41974_1|bu unvon yorlig'i bir umr o'zgartirilmasa kerak|bu unvon yorlig'i bir umr o'zgartirilmasa kerak
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_41975_2|habib o'rtancha tog'asiga tortgan|habib o'rtancha tog'asiga tortgan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42002_1|yolg'on gap bilan tarix ilmini yaratib bo'lmaydi derding|yolg'on gap bilan tarix ilmini yaratib bo'lmaydi derding
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42003_1|endi ham sharoit yetilmadimi hammayoqni oshkoralik bosib ketdi ku shoirchiligingni yig'ishtirib ilm bilan shug'ullan|endi ham sharoit yetilmadimi hammayoqni oshkoralik bosib ketdi ku shoirchiligingni yig'ishtirib ilm bilan shug'ullan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42005_1|bunaqa sharoit uzoq davom etmasa kerak dedi|bunaqa sharoit uzoq davom etmasa kerak dedi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42006_1|anvar akasiga qarab jilmaydi da|anvar akasiga qarab jilmaydi da
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42007_1|xudo poshsho deb qo'ydi|xudo poshsho deb qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42008_1|hofiz o'rtog'ing keldi dedi risolat kampir|hofiz o'rtog'ing keldi dedi risolat kampir
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42009_1|anvar o'rnidan turishga ulgurmay hovlida elchin paydo bo'lib mirzo anvarbek|anvar o'rnidan turishga ulgurmay hovlida elchin paydo bo'lib mirzo anvarbek
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42010_1|deb chaqirdi|deb chaqirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42011_1|maktabda o'qib yurishganida o'rtoqlari uni mirzo anvar ko'ngil qo'ygan qizi lolani esa ra'no deb chaqirishardi|maktabda o'qib yurishganida o'rtoqlari uni mirzo anvar ko'ngil qo'ygan qizi lolani esa ra'no deb chaqirishardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42012_1|bolalik sururi moziyga ko'chgan bo'lsa ham elchin do'stini erkalagisi kelganda mirzo anvarbek|bolalik sururi moziyga ko'chgan bo'lsa ham elchin do'stini erkalagisi kelganda mirzo anvarbek
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42013_1|shunaqa yo'qlar edi|shunaqa yo'qlar edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42014_1|hozir ham lutf bilan shunday deb kirib kelishi anvarni iydirib yubordi|hozir ham lutf bilan shunday deb kirib kelishi anvarni iydirib yubordi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42015_1|opoqijon quvonib o'tiribsizmi dedi elchin kampirning duosini olgach|opoqijon quvonib o'tiribsizmi dedi elchin kampirning duosini olgach
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42016_1|bir oshnamdan xabar olay devdim niyat xolis da o'zi kelib qolibdi|bir oshnamdan xabar olay devdim niyat xolis da o'zi kelib qolibdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42017_1|anvar unga qarab quvligingga qoyilman deganday bosh irg'ab qo'ydi|anvar unga qarab quvligingga qoyilman deganday bosh irg'ab qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42018_1|u yo tabibboshiga qo'ng'iroq qilgan yo o'zi yana borib kelgan|u yo tabibboshiga qo'ng'iroq qilgan yo o'zi yana borib kelgan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_42019_1|anvarning qaytganini bilib kirgan|anvarning qaytganini bilib kirgan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43291_1|biz tirikchilik orqasida tinchgina yurgan odamlarmiz|biz tirikchilik orqasida tinchgina yurgan odamlarmiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43292_1|bek aka tugabdilar asfalasofilinga jo'nashlariga bir qadam qolibdi deb qo'ydi|bek aka tugabdilar asfalasofilinga jo'nashlariga bir qadam qolibdi deb qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43293_1|shu kuni hosilboyvachcha qamal holati yakunlanganini angladi|shu kuni hosilboyvachcha qamal holati yakunlanganini angladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43294_1|zelixon biron g'alva chiqmog'ini kutgan edi|zelixon biron g'alva chiqmog'ini kutgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43295_1|ammo bu qadarli fojia yuz berar deb o'ylamagandi|ammo bu qadarli fojia yuz berar deb o'ylamagandi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43296_1|beozorgina tong otdi|beozorgina tong otdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43297_1|ahadbeyning iltimosiga ko'ra bu uyda tunagan zelixon uxlaganday bo'lmadi|ahadbeyning iltimosiga ko'ra bu uyda tunagan zelixon uxlaganday bo'lmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43298_1|har yarim soatda shovqin solib o'tuvchi poezdning guldiragiga bu xonadondagilar ko'nikib qolgan uxlayverishadi|har yarim soatda shovqin solib o'tuvchi poezdning guldiragiga bu xonadondagilar ko'nikib qolgan uxlayverishadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43299_1|ismoilbey bomdodni o'qiyotganida yana bir poezd o'tdi yu zelixon o'rnidan turib ketdi|ismoilbey bomdodni o'qiyotganida yana bir poezd o'tdi yu zelixon o'rnidan turib ketdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43300_1|ahadbey ham uyg'oq edi oshnasining turganini ko'rib u ham qaddini ko'tardi|ahadbey ham uyg'oq edi oshnasining turganini ko'rib u ham qaddini ko'tardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43301_1|ismoilbey namozni ado etib bo'lganidan keyin ham joynamozdan jilmadi|ismoilbey namozni ado etib bo'lganidan keyin ham joynamozdan jilmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43303_1|quyosh ko'tarilganida bolalar ham turishib barchalari birga o'tirib nonushta qilishdi|quyosh ko'tarilganida bolalar ham turishib barchalari birga o'tirib nonushta qilishdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43304_1|to'yni bekor qoldirding oshna mana hammasi tinchiganga o'xshaydi dedi zelixon choy icha turib|to'yni bekor qoldirding oshna mana hammasi tinchiganga o'xshaydi dedi zelixon choy icha turib
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43305_1|tinchigani rost bo'lsin dedi ahadbey|tinchigani rost bo'lsin dedi ahadbey
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43306_1|endi to'yni qovun pishig'ida qilamiz|endi to'yni qovun pishig'ida qilamiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43307_1|inshoolloh dedi ismoilbey o'ychan|inshoolloh dedi ismoilbey o'ychan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43312_1|odamlar bilan gaplasha turib ora orada o'zicha pichirlab qo'yish ismoilbeyning odati edi|odamlar bilan gaplasha turib ora orada o'zicha pichirlab qo'yish ismoilbeyning odati edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43313_1|bu safar pichirlamay hamma eshitadigan qilib arabchalab gapirishi zelixonni ajablantirdi|bu safar pichirlamay hamma eshitadigan qilib arabchalab gapirishi zelixonni ajablantirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43314_1|gapingizga tushunmadim dedi u|gapingizga tushunmadim dedi u
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43315_1|tushunmadingmi ha bu hikmatni anglash qiyin|tushunmadingmi ha bu hikmatni anglash qiyin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43316_1|anglagan taqdirda ham amalga oshirish mushkuldir|anglagan taqdirda ham amalga oshirish mushkuldir
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43317_1|boshqalarni qo'yatur|boshqalarni qo'yatur
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43318_1|mana sen anglaganingda ham ijro etolmaysan|mana sen anglaganingda ham ijro etolmaysan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43319_1|shu qadar befahmmanmi yo ojizmanmi qani ayting chi|shu qadar befahmmanmi yo ojizmanmi qani ayting chi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43320_1|bas bir birlaringizga zulm qilmanglar|bas bir birlaringizga zulm qilmanglar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43321_1|yaxshi gap ekan dedi zelixon|yaxshi gap ekan dedi zelixon
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43322_1|lekin menga tanbeh berganingizga tushunmadim|lekin menga tanbeh berganingizga tushunmadim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43323_1|men hali birovni o'ldirmaganman|men hali birovni o'ldirmaganman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43324_1|to'g'ri urganman o'marganman lekin o'ldirmaganman|to'g'ri urganman o'marganman lekin o'ldirmaganman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43325_1|zulm faqat o'ldirishdan iborat emasdur|zulm faqat o'ldirishdan iborat emasdur
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43326_1|yomon so'z aytib birovning dilini og'ritish ham zulmdir|yomon so'z aytib birovning dilini og'ritish ham zulmdir
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43327_1|endi bu yog'ini juda tor olib yubordingiz|endi bu yog'ini juda tor olib yubordingiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43328_1|ba'zan shunaqa holat yuz beradi ki biron ablahni o'ldirib faqat savob topasiz|ba'zan shunaqa holat yuz beradi ki biron ablahni o'ldirib faqat savob topasiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43330_1|ahadbey ko'rdi|ahadbey ko'rdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43331_1|aslida qilmishi uchun uni o'ldirishim shart edi|aslida qilmishi uchun uni o'ldirishim shart edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43333_1|jazo berishga senda huquq yo'q|jazo berishga senda huquq yo'q
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43334_1|jazolovchi qodir xudodir|jazolovchi qodir xudodir
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43335_1|xudo u ablahni jazolagunicha dunyoni ostin ustin qilib yuboradi|xudo u ablahni jazolagunicha dunyoni ostin ustin qilib yuboradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43336_1|ismoilbey zelixonga gap uqdirib bo'lmasligini bilgani uchun bandalaringga insof ber deb pichirlab qo'yib bahsni to'xtatdi|ismoilbey zelixonga gap uqdirib bo'lmasligini bilgani uchun bandalaringga insof ber deb pichirlab qo'yib bahsni to'xtatdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43337_1|zelixon gapni chuvalamadi|zelixon gapni chuvalamadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43338_1|dasturxon yig'ishtirilayotgan paytda ko'chaning narigi betidagi qo'shni ko'rindi|dasturxon yig'ishtirilayotgan paytda ko'chaning narigi betidagi qo'shni ko'rindi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43339_1|ko'cha eshik ochiq edi shu sababli domlajon uydamisiz deb kirib kelaverdi|ko'cha eshik ochiq edi shu sababli domlajon uydamisiz deb kirib kelaverdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43340_1|uch to'rt kundan beri soqol olishga hafsala qilmagan ellik yoshlardagi kishi ismoilbey bilan qo'shqo'llab so'rashdi|uch to'rt kundan beri soqol olishga hafsala qilmagan ellik yoshlardagi kishi ismoilbey bilan qo'shqo'llab so'rashdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43341_1|dasturxonni qayta yozishmoqchi edi unamadi|dasturxonni qayta yozishmoqchi edi unamadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43342_1|bozorga bormoqchiman domlajonni bir ziyorat qilay dedim|bozorga bormoqchiman domlajonni bir ziyorat qilay dedim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43343_1|ko'chaga chiqib qarasam darvozamning tepasiga chorsi bog'lab qo'yilibdi|ko'chaga chiqib qarasam darvozamning tepasiga chorsi bog'lab qo'yilibdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43344_1|yap yangi deng|yap yangi deng
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43345_1|yechib belimga bog'lab oldim u kulimsirab belbog'ni ko'rsatdi|yechib belimga bog'lab oldim u kulimsirab belbog'ni ko'rsatdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43346_1|hoynahoy domlajonning nabiralari bog'lashgandir sovchi qo'ymasdan oldin turklar shunaqa qilarmikin deb fikr qildim|hoynahoy domlajonning nabiralari bog'lashgandir sovchi qo'ymasdan oldin turklar shunaqa qilarmikin deb fikr qildim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43347_1|yigitali aka bizda bunaqa odat yo'q|yigitali aka bizda bunaqa odat yo'q
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43348_1|sovchi qo'yishga hali besh o'n yil bor|sovchi qo'yishga hali besh o'n yil bor
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43349_1|endi bu bir omadi gap da ahadbey inim|endi bu bir omadi gap da ahadbey inim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43350_1|hozirdan chorsi bog'lab turilsa chorsidan yalchib qolarmidik deyman da|hozirdan chorsi bog'lab turilsa chorsidan yalchib qolarmidik deyman da
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43351_1|u shunday deb kuldi da ajablanib qarab turgan zelixonga ko'zi tushib jiddiylashdi|u shunday deb kuldi da ajablanib qarab turgan zelixonga ko'zi tushib jiddiylashdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43352_1|bu hazil domlajon omadi gap shuki men munday qarasam yana uch to'rt darvoza tepasiga bog'langan|bu hazil domlajon omadi gap shuki men munday qarasam yana uch to'rt darvoza tepasiga bog'langan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43353_1|shunga boshim garang bo'ldi|shunga boshim garang bo'ldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43354_1|bozorga borishga ham oyog'im tortmay qoldi|bozorga borishga ham oyog'im tortmay qoldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43355_1|yo'ldan qaytdim|yo'ldan qaytdim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43356_1|yuragimga bir g'ulg'ula oralaganga o'xshaydi|yuragimga bir g'ulg'ula oralaganga o'xshaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43357_1|yigitalining keyingi gapini eshitib ismoilbey boshini egdi|yigitalining keyingi gapini eshitib ismoilbey boshini egdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43358_1|uning yuragi bir necha kundan beri notinch edi|uning yuragi bir necha kundan beri notinch edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43359_1|bir necha kundan beri ko'zini yumdi degunicha ona yurti mesxetiyani ko'radi|bir necha kundan beri ko'zini yumdi degunicha ona yurti mesxetiyani ko'radi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43360_1|dengiz mavjlari ko'zlarini quvnatadi|dengiz mavjlari ko'zlarini quvnatadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43361_1|dengiz sohilida qirg'oqdagi mayda toshlarni ohista silayotgan ojiz to'lqinlarni bezovta qilib yugurayotgan ishtonchan bolani ko'radi|dengiz sohilida qirg'oqdagi mayda toshlarni ohista silayotgan ojiz to'lqinlarni bezovta qilib yugurayotgan ishtonchan bolani ko'radi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43362_1|sen kimsan deb so'raydi ajablanib|sen kimsan deb so'raydi ajablanib
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43363_1|bola qiqirlab kuladi|bola qiqirlab kuladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43364_1|men o'zingizman men ismoilbeyman|men o'zingizman men ismoilbeyman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43365_1|men bunda bobomni kutayotirman|men bunda bobomni kutayotirman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43366_1|hayotni faqat shodlikdan iborat deb o'ylovchi bola ismoilbey qiyqirib quvnab yuguradi|hayotni faqat shodlikdan iborat deb o'ylovchi bola ismoilbey qiyqirib quvnab yuguradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43367_1|dunyodan rizqi uzilay deb turgan qariya ismoilbey esa unga havas bilan qaraydi|dunyodan rizqi uzilay deb turgan qariya ismoilbey esa unga havas bilan qaraydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43368_1|unga ergashib yugurgisi keladi|unga ergashib yugurgisi keladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43369_1|ammo oyoqlarini yerdan uza olmaydi|ammo oyoqlarini yerdan uza olmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43372_1|bolaning quvnashidan dengiz ham mast quyosh ham yayrab nur sochadi|bolaning quvnashidan dengiz ham mast quyosh ham yayrab nur sochadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43373_1|dengizning ufqqa tutash yerini yondirib quyosh botadi|dengizning ufqqa tutash yerini yondirib quyosh botadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43374_1|so'ng oy ko'tarilib bu yong'indan aziyat chekkan dengiz yuzini silab ovutadi|so'ng oy ko'tarilib bu yong'indan aziyat chekkan dengiz yuzini silab ovutadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43375_1|oy nuri dengiz uzra uzun poyandoz soladi|oy nuri dengiz uzra uzun poyandoz soladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43376_1|shu onda poyandoz ustida bobosi ko'rinadi|shu onda poyandoz ustida bobosi ko'rinadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43378_1|iziga qayta boshlaydi|iziga qayta boshlaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43379_1|bola xursand|bola xursand
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43381_1|nur poyandoz bo'ylab yuraveradi|nur poyandoz bo'ylab yuraveradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43383_1|javob bo'lmaydi|javob bo'lmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43384_1|so'ng u ham poyandozga oyoq qo'yadi|so'ng u ham poyandozga oyoq qo'yadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43385_1|yuraveradi yuraveradi|yuraveradi yuraveradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43386_1|oxiri dengiz tubiga qarab tusha boshlaydi|oxiri dengiz tubiga qarab tusha boshlaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43388_1|uning esa nafasi qayta boshlaydi|uning esa nafasi qayta boshlaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43389_1|cho'chib uyg'onadi|cho'chib uyg'onadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43390_1|kalima keltiradi|kalima keltiradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43391_1|necha kundan beri ahvol shu|necha kundan beri ahvol shu
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43392_1|bu nimadan darak beradi deb o'ylaydi|bu nimadan darak beradi deb o'ylaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43394_1|yigitalining gapi xavotirini yana uyg'otadi|yigitalining gapi xavotirini yana uyg'otadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43395_1|kimlarning uyiga chorsi bog'lanibdi deb so'radi ismoilbey|kimlarning uyiga chorsi bog'lanibdi deb so'radi ismoilbey
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43396_1|haydarali muhsinali ziyodali niyozali|haydarali muhsinali ziyodali niyozali
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43397_1|bu mahallada o'zbeklarga nisbatan turklar ko'proq edi|bu mahallada o'zbeklarga nisbatan turklar ko'proq edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43398_1|yigitali nomini tilga olgan odamlar o'zbeklar bo'lgani uchun ismoilbeyning gumoni haqiqatga aylanganday bo'ldi|yigitali nomini tilga olgan odamlar o'zbeklar bo'lgani uchun ismoilbeyning gumoni haqiqatga aylanganday bo'ldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43399_1|lekin yigitaliga sir boy bermadi|lekin yigitaliga sir boy bermadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43400_1|yigitali siz bozorga bahuzur boravering|yigitali siz bozorga bahuzur boravering
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43401_1|bu bolalarning bir o'yini bo'lsa kerak da|bu bolalarning bir o'yini bo'lsa kerak da
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43402_1|yigitali chiqib ketgach ismoilbey zelixon bilan ahadbeyni yoniga chorladi|yigitali chiqib ketgach ismoilbey zelixon bilan ahadbeyni yoniga chorladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43403_1|bu o'yinda bir shumlik bor ko'rinadi dedi u|bu o'yinda bir shumlik bor ko'rinadi dedi u
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43404_1|ziyrak bo'linglar|ziyrak bo'linglar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43405_1|kimdir o'zbeklarning uylarini belgilab chiqibdi|kimdir o'zbeklarning uylarini belgilab chiqibdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43406_1|shu uylarga balo yog'ilmasin ziyrak bo'linglar|shu uylarga balo yog'ilmasin ziyrak bo'linglar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43407_1|zelixon nonushtadan keyin ketmoqchi edi|zelixon nonushtadan keyin ketmoqchi edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43408_1|bu gapni eshitib joyidan jilmadi|bu gapni eshitib joyidan jilmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43409_1|bu tong quyosh beozorgina bosh ko'targan edi|bu tong quyosh beozorgina bosh ko'targan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43410_1|odati bo'yicha beozor nur sochardi|odati bo'yicha beozor nur sochardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43411_1|ajabki bu beozor nur dan g'ofil bandalar ham ahli shaytanat ham nur emardi|ajabki bu beozor nur dan g'ofil bandalar ham ahli shaytanat ham nur emardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43413_1|bulutning sovuq shabadasini avval yigitali keltirdi|bulutning sovuq shabadasini avval yigitali keltirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43414_1|u hovliqib kirdi da|u hovliqib kirdi da
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43415_1|domlajon omadi gap shuki dam g'animat|domlajon omadi gap shuki dam g'animat
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43417_1|o'zlarini kaltaklashyapti qochinglar|o'zlarini kaltaklashyapti qochinglar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43418_1|kim yoqyapti kim uryapti deb so'radi zelixon|kim yoqyapti kim uryapti deb so'radi zelixon
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43419_1|kim bo'lardi dedi ahadbey unga javoban|kim bo'lardi dedi ahadbey unga javoban
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43420_1|o'g'lining zaharli gapini eshitgan|o'g'lining zaharli gapini eshitgan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43421_1|ismoilbey bosh chayqadi|ismoilbey bosh chayqadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43422_1|unday gumon qilma o'g'lim|unday gumon qilma o'g'lim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43423_1|non bergan jon olmaydi|non bergan jon olmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43424_1|mahallaning kunbotar etagidan quyuq qora tutun o'rlay boshladi|mahallaning kunbotar etagidan quyuq qora tutun o'rlay boshladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43425_1|dedi yigitali|dedi yigitali
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43426_1|bolalar qani|bolalar qani
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43428_1|tez bo'l|tez bo'l
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43429_1|ular ko'chaga chiqishganida olomon ko'rindi|ular ko'chaga chiqishganida olomon ko'rindi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43430_1|biznikiga biznikiga kiringlar dedi yigitali hovliqib|biznikiga biznikiga kiringlar dedi yigitali hovliqib
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43431_1|fikrlashmoqqa maslahatlashmoqqa fursat yo'q edi|fikrlashmoqqa maslahatlashmoqqa fursat yo'q edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43432_1|hammalari vahima to'riga o'ralgan holda yigitalinikiga otilishdi|hammalari vahima to'riga o'ralgan holda yigitalinikiga otilishdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43433_1|darvozaga bog'langan chorsining ma'nosini endi tushundingizmi dedi zelixon|darvozaga bog'langan chorsining ma'nosini endi tushundingizmi dedi zelixon
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43434_1|o'zbeklarning uyini belgilashgan bu uylarga tegishmaydi|o'zbeklarning uyini belgilashgan bu uylarga tegishmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43435_1|men ahmoq uni yechib olibman yigitali shunday deb ko'chaga chiqdi|men ahmoq uni yechib olibman yigitali shunday deb ko'chaga chiqdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43436_1|olomon ismoilbeyning uyiga yaqinlashganida yigitali ularning yo'lini to'smoqchi bo'ldi|olomon ismoilbeyning uyiga yaqinlashganida yigitali ularning yo'lini to'smoqchi bo'ldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43437_1|hoy yaxshilar bu uyda domla turadilar|hoy yaxshilar bu uyda domla turadilar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43438_1|tegmanglar xudodan qo'rqinglar|tegmanglar xudodan qo'rqinglar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43439_1|olomonni boshlab kelayotgan malla odam unga tanish ko'rindi|olomonni boshlab kelayotgan malla odam unga tanish ko'rindi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43440_1|biroq uni qaerda ko'rganini bu sarosimada eslay olmadi|biroq uni qaerda ko'rganini bu sarosimada eslay olmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43441_1|malla benzin to'ldirilgan plastmas idishni qo'ltiqlab olgan edi|malla benzin to'ldirilgan plastmas idishni qo'ltiqlab olgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43442_1|yigitali uni qo'lidan ushladi|yigitali uni qo'lidan ushladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43443_1|birodar bu uyga tegmanglar|birodar bu uyga tegmanglar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43444_1|domlaning uyi|domlaning uyi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43445_1|bolalarimizni o'qitgan|bolalarimizni o'qitgan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43446_1|nari tur|nari tur
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43447_1|malla shunday deb so'kindi da tirsagi bilan qattiq turtdi|malla shunday deb so'kindi da tirsagi bilan qattiq turtdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43448_1|yigitali shundan keyin esladi|yigitali shundan keyin esladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43449_1|buni kecha oqshom chog'i shu ko'chada ko'rgan edi|buni kecha oqshom chog'i shu ko'chada ko'rgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43450_1|u o'ziga o'xshagan uch to'rttasi bilan ko'zlari olazarak holda ko'chadan sekin o'tib borayotganida yigitali|u o'ziga o'xshagan uch to'rttasi bilan ko'zlari olazarak holda ko'chadan sekin o'tib borayotganida yigitali
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43451_1|birodarlar birovni qidiryapsizlarmi deb so'rab ammangning erini bor ishingni qil degan javob eshitgan edi|birodarlar birovni qidiryapsizlarmi deb so'rab ammangning erini bor ishingni qil degan javob eshitgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43452_1|ko'kragidan zarba yegan yigitali achchiqlandi da uni yoqasidan oldi|ko'kragidan zarba yegan yigitali achchiqlandi da uni yoqasidan oldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43453_1|tegma deyapman senga itdan tarqagan|tegma deyapman senga itdan tarqagan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43454_1|malla uning oyog'iga zarb bilan tepdi|malla uning oyog'iga zarb bilan tepdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43455_1|yigitali og'riqqa chidolmay cho'kkalab qolganida jag'idan tepki yeb cho'zildi|yigitali og'riqqa chidolmay cho'kkalab qolganida jag'idan tepki yeb cho'zildi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43456_1|malla bir oyog'i bilan tomog'ini ezgan holda ustidan benzin quya boshladi|malla bir oyog'i bilan tomog'ini ezgan holda ustidan benzin quya boshladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43457_1|ana shu onda zelixon eshikdan mo'raladi|ana shu onda zelixon eshikdan mo'raladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43459_1|u yashin tezligida eshikni ochib ko'chaga otildi|u yashin tezligida eshikni ochib ko'chaga otildi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43460_1|fedya ovoz qayoqdan kelganini fahmlamay turib jag'iga tushgan musht zarbidan qalqib ketdi|fedya ovoz qayoqdan kelganini fahmlamay turib jag'iga tushgan musht zarbidan qalqib ketdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43461_1|qorniga tushgan tepkidan bukchayib qo'lidagi idishni tushirib yubordi|qorniga tushgan tepkidan bukchayib qo'lidagi idishni tushirib yubordi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43462_1|zelixon hushidan ketayozgan yigitalini turg'izmoqchi bo'ldi|zelixon hushidan ketayozgan yigitalini turg'izmoqchi bo'ldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43463_1|o'zlaringning o'zbeklaringni o'ldirtirib tomosha qilib turasanlarmi|o'zlaringning o'zbeklaringni o'ldirtirib tomosha qilib turasanlarmi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43465_1|baqirdi jon achchig'ida fedya|baqirdi jon achchig'ida fedya
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43466_1|shu zahoti zelixon gardanida og'riq sezdi|shu zahoti zelixon gardanida og'riq sezdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43467_1|birodarlar bu turk emas|birodarlar bu turk emas
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43469_1|eshitdi yu hushidan ketdi|eshitdi yu hushidan ketdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43470_1|dimog'iga achchiq tutun kirib ko'ngli aynidi|dimog'iga achchiq tutun kirib ko'ngli aynidi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43472_1|asadbek bu hikmatdan bexabar edi|asadbek bu hikmatdan bexabar edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43473_1|bola chog'ida bunday hikmatlar qalbiga muhrlanishi lozim bo'lgan pallada otasi urushda edi|bola chog'ida bunday hikmatlar qalbiga muhrlanishi lozim bo'lgan pallada otasi urushda edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43474_1|onasi tirikchilik tashvishidan ortmasdi|onasi tirikchilik tashvishidan ortmasdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43475_1|mahalladagi qari qartanglar ham bolalarga odob o'rgatish yumushiga befarq bo'lib qolgan edilar|mahalladagi qari qartanglar ham bolalarga odob o'rgatish yumushiga befarq bo'lib qolgan edilar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43476_1|barcha o'z qayg'usi o'z tashvishi bilan band edi|barcha o'z qayg'usi o'z tashvishi bilan band edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43477_1|keyinchalik og'ir zamonlar o'tdi|keyinchalik og'ir zamonlar o'tdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43478_1|qorin to'ydi|qorin to'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43479_1|ammo ruh och qolaverdi|ammo ruh och qolaverdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43480_1|odamlar esa bargsiz mevasiz daraxtga aylandilar|odamlar esa bargsiz mevasiz daraxtga aylandilar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43481_1|asadbekning ruhi ba'zan ochlikdan chirillar vujudini tilka tilka qilib tashlardi|asadbekning ruhi ba'zan ochlikdan chirillar vujudini tilka tilka qilib tashlardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43482_1|u chorasiz bu yoshda endi ruhini to'ydira oladigan ozuqa topa olmas edi|u chorasiz bu yoshda endi ruhini to'ydira oladigan ozuqa topa olmas edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43483_1|ruhi och odamning bu dunyoda umr kechirmog'i og'ir juda og'ir|ruhi och odamning bu dunyoda umr kechirmog'i og'ir juda og'ir
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43484_1|mol mulk hisobsiz ammo ruh och|mol mulk hisobsiz ammo ruh och
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43485_1|u ba'zan holatiga o'zi ham tushunmay o'yga toladi|u ba'zan holatiga o'zi ham tushunmay o'yga toladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43486_1|menga yana nima yetishmaydi deb o'ziga o'zi savol beradi|menga yana nima yetishmaydi deb o'ziga o'zi savol beradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43487_1|savol berishga beradi yu javob topa olmaydi|savol berishga beradi yu javob topa olmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43488_1|bu ojiz banda bilmaydi ki boylikda hech qanday ulug'vorlik yo'qtur|bu ojiz banda bilmaydi ki boylikda hech qanday ulug'vorlik yo'qtur
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43489_1|boylik sokinday ko'ringan dengiz uzra qurilgan bir qasrdir|boylik sokinday ko'ringan dengiz uzra qurilgan bir qasrdir
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43490_1|dengiz bir chayqalsa tamom qasrdan nom nishon qolmas|dengiz bir chayqalsa tamom qasrdan nom nishon qolmas
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43491_1|sirtdan qaragan kishiga balki u baxtli ko'rinar|sirtdan qaragan kishiga balki u baxtli ko'rinar
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43492_1|asadbek faylasufona fikrlar bilan mashg'ul bo'lmoqni yoqtirmaydi|asadbek faylasufona fikrlar bilan mashg'ul bo'lmoqni yoqtirmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43493_1|mushohada qilmoqni chuvrindiga chiqargan|mushohada qilmoqni chuvrindiga chiqargan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43494_1|bir kuni u keladi|bir kuni u keladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43495_1|kimning qalbi bo'lmasa u baxtsizdir degan edi|kimning qalbi bo'lmasa u baxtsizdir degan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43496_1|hatto bir necha kun bu hikmatning mag'zini chaqmoqchi bo'lib o'ylanib ham yurdi|hatto bir necha kun bu hikmatning mag'zini chaqmoqchi bo'lib o'ylanib ham yurdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43497_1|keyin esa yodidan chiqardi|keyin esa yodidan chiqardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43498_1|zaynab o'zini osgach xotirasining qay bir burchaklarida g'aflat bosib yotgan bu hikmat uyg'ondi|zaynab o'zini osgach xotirasining qay bir burchaklarida g'aflat bosib yotgan bu hikmat uyg'ondi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43499_1|mening qalbim yo'qmi men baxtsizmanmi degan savol uni og'ir ahvolga solib qo'ydi|mening qalbim yo'qmi men baxtsizmanmi degan savol uni og'ir ahvolga solib qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43500_1|qizining o'zini osib qo'yganini eshitib qo'rqdi|qizining o'zini osib qo'yganini eshitib qo'rqdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43501_1|nimadan qo'rqdi bilmaydi|nimadan qo'rqdi bilmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43502_1|qizi ajal bilan yuzma yuz bo'lganida esa qo'rqdi|qizi ajal bilan yuzma yuz bo'lganida esa qo'rqdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43503_1|kechagina nomus unga hukm o'tkazgan edi|kechagina nomus unga hukm o'tkazgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43504_1|shu nomus bandiligida jamshidga o'limni ravo ko'rgan edi|shu nomus bandiligida jamshidga o'limni ravo ko'rgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43505_1|bugun nomus tuyg'usi uni tark etdi|bugun nomus tuyg'usi uni tark etdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43506_1|bolasining o'lishi mumkinligi uni qo'rquvga soldi|bolasining o'lishi mumkinligi uni qo'rquvga soldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43507_1|shu qo'rquv tufayli qizi yotgan uyga kirishga yuragi betlamadi|shu qo'rquv tufayli qizi yotgan uyga kirishga yuragi betlamadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43508_1|manzura fojianing sababini bilmas edi|manzura fojianing sababini bilmas edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43510_1|shu bois uyga kirib qizining ko'ziga qarashga botinmas edi|shu bois uyga kirib qizining ko'ziga qarashga botinmas edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43511_1|manzura bir ikki hovliga chiqib unga ma'nodor qarab qo'ygach kirishga majbur bo'ldi|manzura bir ikki hovliga chiqib unga ma'nodor qarab qo'ygach kirishga majbur bo'ldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43512_1|zaynab ko'zlarini shiftga qadab yotardi|zaynab ko'zlarini shiftga qadab yotardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43513_1|otasi kirganini bilsa ham hatto kiprik qoqmadi|otasi kirganini bilsa ham hatto kiprik qoqmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43514_1|u o'zini osganini biladi|u o'zini osganini biladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43515_1|ammo hozir tirikmi yo o'likmi ekanini bilolmaydi|ammo hozir tirikmi yo o'likmi ekanini bilolmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43516_1|onasining yig'lamsiragan ovozini eshitadi|onasining yig'lamsiragan ovozini eshitadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43518_1|otasi kirdi tomoq qirdi|otasi kirdi tomoq qirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43520_1|gap boshlaydi|gap boshlaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43521_1|kumush o'lar chog'ida qaynotasi kirar edi|kumush o'lar chog'ida qaynotasi kirar edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43522_1|kumush ahvoli og'ir bo'lsa ham bir qo'zg'olar edi|kumush ahvoli og'ir bo'lsa ham bir qo'zg'olar edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43524_1|u kumushning taqdiriga yig'lagan edi unga kim yig'laydi shu fikr zaynabning xo'rligini keltirdi|u kumushning taqdiriga yig'lagan edi unga kim yig'laydi shu fikr zaynabning xo'rligini keltirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43525_1|kipriklari pirpirab ko'zlarida yosh qalqidi|kipriklari pirpirab ko'zlarida yosh qalqidi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43526_1|asadbek buni ko'rdi|asadbek buni ko'rdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43527_1|birdaniga uning ham yig'lagisi keldi|birdaniga uning ham yig'lagisi keldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43529_1|bolang oldida qaddingni bukma|bolang oldida qaddingni bukma
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43531_1|hamisha dadil yur|hamisha dadil yur
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43532_1|bolang seni yerparchin holda ko'rmasin|bolang seni yerparchin holda ko'rmasin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43533_1|dardga taslim bo'lganingni sezmasin|dardga taslim bo'lganingni sezmasin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43534_1|seni hamisha kuchli deb bilsin va faxrlansin|seni hamisha kuchli deb bilsin va faxrlansin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43535_1|mana shu aqidaga qattiq rioya qilib yashayotgan asadbekda qaddini bukmoqqa moyillik sezildi|mana shu aqidaga qattiq rioya qilib yashayotgan asadbekda qaddini bukmoqqa moyillik sezildi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43536_1|beldan quvvat oyoqdan mador ketganday tuyuldi|beldan quvvat oyoqdan mador ketganday tuyuldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43537_1|ammo ojizlik hissi unga bir daqiqagina hukm o'tkazdi|ammo ojizlik hissi unga bir daqiqagina hukm o'tkazdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43538_1|bir daqiqadan so'ng u asliga qaytdi|bir daqiqadan so'ng u asliga qaytdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43539_1|zaynab boshini burib otasiga qaradi|zaynab boshini burib otasiga qaradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43540_1|asadbek bu qarashda jamshid akamni nega o'ldirdingiz degan savolni o'qidi|asadbek bu qarashda jamshid akamni nega o'ldirdingiz degan savolni o'qidi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43541_1|zaynab bu savolni tilga chiqarib so'ragan taqdirida ham javob ololmas edi|zaynab bu savolni tilga chiqarib so'ragan taqdirida ham javob ololmas edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43542_1|ko'zlarda zuhurlangan savoldan qutulish oson nigoh olib qochilsa kifoya|ko'zlarda zuhurlangan savoldan qutulish oson nigoh olib qochilsa kifoya
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43544_1|o'zingni tut|o'zingni tut
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43545_1|hammasi yaxshi bo'ladi dedi|hammasi yaxshi bo'ladi dedi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43546_1|keyin yana zaynabga qaradi|keyin yana zaynabga qaradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43547_1|nima yaxshi bo'ladi jamshid akamni tiriltirish qo'lingizdan keladimi deb savol berdi zaynabning ko'zlari|nima yaxshi bo'ladi jamshid akamni tiriltirish qo'lingizdan keladimi deb savol berdi zaynabning ko'zlari
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43548_1|javob o'rniga yana nigohini olib qochdi|javob o'rniga yana nigohini olib qochdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43549_1|bu holda uzoq turolmasligini bilib ohista burildi da uydan chiqdi|bu holda uzoq turolmasligini bilib ohista burildi da uydan chiqdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43550_1|zaynab otasining izidan qarab qoldi|zaynab otasining izidan qarab qoldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43551_1|hammasi yaxshi bo'larmish|hammasi yaxshi bo'larmish
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43552_1|bir odam bekordan bekorga o'lib ketdi|bir odam bekordan bekorga o'lib ketdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43553_1|endi nimasi yaxshi bo'ladi ha men o'lmay qoldim|endi nimasi yaxshi bo'ladi ha men o'lmay qoldim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43554_1|bularga shunisi yaxshi bo'ldi|bularga shunisi yaxshi bo'ldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43555_1|bir oz o'zimga kelganimdan keyin erim olib ketadi|bir oz o'zimga kelganimdan keyin erim olib ketadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43556_1|vujudimizni yana soxta mehr niqobi bilan chirmab yashayveramiz|vujudimizni yana soxta mehr niqobi bilan chirmab yashayveramiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43557_1|keyin bola tug'iladi|keyin bola tug'iladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43558_1|bola tug'ilganidan keyin meni o'ldiring deyman|bola tug'ilganidan keyin meni o'ldiring deyman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43559_1|sizga xiyonat qildim deyman|sizga xiyonat qildim deyman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43560_1|yolg'on gapiramanmi nima uchun yolg'on gapirishim kerak o'ldirsin debmi o'ldirarmikin o'ldira olarmikin mendan o'lim qochdi|yolg'on gapiramanmi nima uchun yolg'on gapirishim kerak o'ldirsin debmi o'ldirarmikin o'ldira olarmikin mendan o'lim qochdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43561_1|oradan ko'p o'tmay hovlida elchin ko'rindi|oradan ko'p o'tmay hovlida elchin ko'rindi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43562_1|bu paytda asadbek kesakpolvon bilan katta xonada o'tirar edi|bu paytda asadbek kesakpolvon bilan katta xonada o'tirar edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43563_1|elchinni ko'rib kesakpolvonga chaqir uni degan ma'noda qaradi|elchinni ko'rib kesakpolvonga chaqir uni degan ma'noda qaradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43564_1|kesakpolvon hovliga chiqqunicha elchinni manzura qarshilab zaynab yotgan xonaga boshladi|kesakpolvon hovliga chiqqunicha elchinni manzura qarshilab zaynab yotgan xonaga boshladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43565_1|manzura ichkari kirmay ostonada qoldi|manzura ichkari kirmay ostonada qoldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43566_1|shunda kesakpolvon yanga|shunda kesakpolvon yanga
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43567_1|deb chaqirdi|deb chaqirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43568_1|manzura qarashi bilan kuyovni bek chaqiryapti degan ma'noda imladi|manzura qarashi bilan kuyovni bek chaqiryapti degan ma'noda imladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43569_1|kuyovini ko'rib fe'li aynidi ku deb o'yladi kesakpolvon|kuyovini ko'rib fe'li aynidi ku deb o'yladi kesakpolvon
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43570_1|asadbek turib olgani uchun u ham joyiga borib o'tirmadi|asadbek turib olgani uchun u ham joyiga borib o'tirmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43571_1|elchin kelmasidan avval ham gaplari qovushmayotgan edi|elchin kelmasidan avval ham gaplari qovushmayotgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43572_1|kesakpolvon asadbekning fe'lini yaxshi bilgani uchun nima bo'ldi deb so'rab o'tirmadi|kesakpolvon asadbekning fe'lini yaxshi bilgani uchun nima bo'ldi deb so'rab o'tirmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43573_1|yupatishga ham harakat qilmadi|yupatishga ham harakat qilmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43574_1|u xo'jasi boshiga savdo tushganini fahmladi|u xo'jasi boshiga savdo tushganini fahmladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43575_1|bunday paytda uning yonida bo'lmog'i shart ekanini eslatish ortiqcha|bunday paytda uning yonida bo'lmog'i shart ekanini eslatish ortiqcha
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43576_1|gap gapga qovushmasa ham umuman gapirilmasa ham mayli asadbekning yonidan jilmaydi|gap gapga qovushmasa ham umuman gapirilmasa ham mayli asadbekning yonidan jilmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43577_1|asadbek soqov bo'lsa u ham soqov yursa yurar o'tirsa o'tirardi|asadbek soqov bo'lsa u ham soqov yursa yurar o'tirsa o'tirardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43578_1|asadbekning jahli chiqqanida yoki yuragi siqilganida kesakpolvon o'zini bilmaganga oladi|asadbekning jahli chiqqanida yoki yuragi siqilganida kesakpolvon o'zini bilmaganga oladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43579_1|xo'jayinni gapga solib ko'nglini yumshatishga harakat qilmaydi|xo'jayinni gapga solib ko'nglini yumshatishga harakat qilmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43580_1|asadbek qadrdon a'yonining bu qilig'iga ko'nikib qolgan uning soyaga aylanib yurishi g'ashini keltirmaydi|asadbek qadrdon a'yonining bu qilig'iga ko'nikib qolgan uning soyaga aylanib yurishi g'ashini keltirmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43581_1|hozir ham ko'p yillar mobaynida shakllangan bu an'ana buzilmadi|hozir ham ko'p yillar mobaynida shakllangan bu an'ana buzilmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43582_1|elchin kirib kelganida ular katta xona o'rtasida tik turgan holda gaplashishardi|elchin kirib kelganida ular katta xona o'rtasida tik turgan holda gaplashishardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43583_1|salomiga alik bo'lmadi|salomiga alik bo'lmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43584_1|jamshidda nima qasdingiz bor edi|jamshidda nima qasdingiz bor edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43585_1|dedi titroq ovozda|dedi titroq ovozda
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43586_1|jamshidda elchin zaynabning gaplaridan ajablangan bo'lsa bu ayblovdan tamom gangidi|jamshidda elchin zaynabning gaplaridan ajablangan bo'lsa bu ayblovdan tamom gangidi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43587_1|nima bo'ldi o'zi hozir eshitdim|nima bo'ldi o'zi hozir eshitdim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43588_1|gapini tugatishga ulgurmasidan asadbek uni giribonidan oldi|gapini tugatishga ulgurmasidan asadbek uni giribonidan oldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43589_1|jim yurgin deganmidim qasosingni olgan eding ku|jim yurgin deganmidim qasosingni olgan eding ku
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43590_1|bek aka avval gapimni eshiting|bek aka avval gapimni eshiting
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43591_1|hozir farg'onadan kelyapman axir|hozir farg'onadan kelyapman axir
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43592_1|haydar shilimshiq qanday o'ldirilganini ko'rganmiding dedi asadbek uni qo'yib yubormay|haydar shilimshiq qanday o'ldirilganini ko'rganmiding dedi asadbek uni qo'yib yubormay
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43593_1|ayt bunga ko'rganmiding|ayt bunga ko'rganmiding
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43594_1|xuddi o'sha daraxtga osib haligisi kesib tashlanibdi|xuddi o'sha daraxtga osib haligisi kesib tashlanibdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43595_1|asadbek elchinning giribonidan qo'lini oldi yu o'sha zahoti jag'iga musht tushirdi|asadbek elchinning giribonidan qo'lini oldi yu o'sha zahoti jag'iga musht tushirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43596_1|elchin gandiraklab ketdi|elchin gandiraklab ketdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43597_1|o'zini o'nglashga ulgurmay kesakpolvonning tepkisini yedi|o'zini o'nglashga ulgurmay kesakpolvonning tepkisini yedi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43598_1|asadbek g'azab otiga minib tomosha ko'rsatmayotgan edi|asadbek g'azab otiga minib tomosha ko'rsatmayotgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43599_1|u jamshidning o'limida chindan ham elchinni aybli deb topdi|u jamshidning o'limida chindan ham elchinni aybli deb topdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43600_1|nazarida elchin daydib ketmay uyida o'tirganida xotiniga yaxshi qaraganida bu ko'rgiliklar yo'q edi|nazarida elchin daydib ketmay uyida o'tirganida xotiniga yaxshi qaraganida bu ko'rgiliklar yo'q edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43601_1|kesakpolvon esa asadbekning harakatini boshqacha tushundi|kesakpolvon esa asadbekning harakatini boshqacha tushundi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43604_1|bu qiliq odat darajasidan chiqib qonun martabasiga yetgan edi|bu qiliq odat darajasidan chiqib qonun martabasiga yetgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43605_1|asadbekning qahridan cho'chuvchi odam uning mushtidan emas ko'proq kesakpolvonning tepkisidan qo'rqardi|asadbekning qahridan cho'chuvchi odam uning mushtidan emas ko'proq kesakpolvonning tepkisidan qo'rqardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43606_1|hozir ham shu qonun kuchga kirdi|hozir ham shu qonun kuchga kirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43607_1|kesakpolvon kaltafahmlik qilib tepayotgan odami xo'jasiga kuyov ekanini o'ylamadi|kesakpolvon kaltafahmlik qilib tepayotgan odami xo'jasiga kuyov ekanini o'ylamadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43608_1|asadbek esa ro'parasidagi odam kuyovi ekanini unutmagan edi|asadbek esa ro'parasidagi odam kuyovi ekanini unutmagan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43609_1|yana tepishga chog'langan kesakpolvonni nari itardi|yana tepishga chog'langan kesakpolvonni nari itardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43610_1|buni tepishga haqqing yo'q|buni tepishga haqqing yo'q
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43611_1|elchin tisarilib devorga suyandi|elchin tisarilib devorga suyandi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43612_1|nafasi qaytdi|nafasi qaytdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43613_1|qadamingni o'ylab bos bola dedi asadbek unga g'azab bilan tikilib|qadamingni o'ylab bos bola dedi asadbek unga g'azab bilan tikilib
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43614_1|endi sal nari beri yuradigan bo'lsang jamshidning orqasidan jo'naysan|endi sal nari beri yuradigan bo'lsang jamshidning orqasidan jo'naysan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43615_1|endi ayab o'tirmayman|endi ayab o'tirmayman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43616_1|elchin bukchaygan holida tashqariga chiqib ayvonda bir oz o'tirdi|elchin bukchaygan holida tashqariga chiqib ayvonda bir oz o'tirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43617_1|manzura kuyovining ahvolini ko'rib yaqinlashmoqchi bo'ldi yu derazadan qarab turgan eriga ko'zi tushib jur'at etolmadi|manzura kuyovining ahvolini ko'rib yaqinlashmoqchi bo'ldi yu derazadan qarab turgan eriga ko'zi tushib jur'at etolmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43618_1|asadbekning bergan tanbehi kesakpolvonga yoqmadi|asadbekning bergan tanbehi kesakpolvonga yoqmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43619_1|ilgari bunaqa demas eding dedi gina bilan|ilgari bunaqa demas eding dedi gina bilan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43620_1|u mening kuyovim|u mening kuyovim
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43621_1|haqqing yo'q tepishga|haqqing yo'q tepishga
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43622_1|shu gapni uning oldida aytasanmi|shu gapni uning oldida aytasanmi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43624_1|kesakpolvon nojoiz gina qilganini tushunib tarang vaziyatni yumshatish yo'liga o'tdi|kesakpolvon nojoiz gina qilganini tushunib tarang vaziyatni yumshatish yo'liga o'tdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43625_1|uning bo'yniga ilib yaxshi qilding|uning bo'yniga ilib yaxshi qilding
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43626_1|endi o'pkasini bosib oladi|endi o'pkasini bosib oladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43627_1|aqling yetmagan ishlarga aralashma|aqling yetmagan ishlarga aralashma
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43629_1|bunaqa paytda asadbekka chuvrindini ro'para qilish kerak|bunaqa paytda asadbekka chuvrindini ro'para qilish kerak
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43630_1|u xo'jasini g'azab otidan avaylab tushirib oladi|u xo'jasini g'azab otidan avaylab tushirib oladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43631_1|ba'zan asadbekning o'zi bu otdan qanday tushganini bilmay ham qoladi|ba'zan asadbekning o'zi bu otdan qanday tushganini bilmay ham qoladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43632_1|kimiki o'z nafsini xor tutsa xudo uning qadrini oshiradi|kimiki o'z nafsini xor tutsa xudo uning qadrini oshiradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43633_1|kimiki o'z nafsini izzat qilsa xudo bandalar oldida uni xor qiladi|kimiki o'z nafsini izzat qilsa xudo bandalar oldida uni xor qiladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43634_1|bunisi kutilmaganda bo'lgani uchunmi yo zarba benihoya kuchli edimi harholda bukchaytirib qo'ydi|bunisi kutilmaganda bo'lgani uchunmi yo zarba benihoya kuchli edimi harholda bukchaytirib qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43635_1|bu fikr oriyatni uyg'otdi|bu fikr oriyatni uyg'otdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43636_1|oriyat tan azobidan kuchlilik qilib ayvonda ko'p o'tirishga qo'ymadi|oriyat tan azobidan kuchlilik qilib ayvonda ko'p o'tirishga qo'ymadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43637_1|o'rnidan turdi|o'rnidan turdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43638_1|qaddini ko'tarishga harakat qildi|qaddini ko'tarishga harakat qildi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43639_1|o'ladigan bo'lsam ham shu yerda shularning oldida o'lmay|o'ladigan bo'lsam ham shu yerda shularning oldida o'lmay
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43640_1|azob chekib jon berayotganimni ko'rishmasin|azob chekib jon berayotganimni ko'rishmasin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43641_1|undan ko'ra ko'chada itday xor bo'lib o'lganim yaxshi|undan ko'ra ko'chada itday xor bo'lib o'lganim yaxshi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43643_1|hatto boloxonada o'g'rincha qarab o'tirgan yigitlarga qarab jilmayib ham qo'ydi|hatto boloxonada o'g'rincha qarab o'tirgan yigitlarga qarab jilmayib ham qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43644_1|ko'chaga chiqib o'ttiz qadamcha yurgach orqasiga qaradi|ko'chaga chiqib o'ttiz qadamcha yurgach orqasiga qaradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43645_1|hech kim kuzatmayotganiga ishonch hosil qilgach daraxtga suyanib tin oldi|hech kim kuzatmayotganiga ishonch hosil qilgach daraxtga suyanib tin oldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43646_1|so'ng qaddini bir oz eggan holda yana yurib ketdi|so'ng qaddini bir oz eggan holda yana yurib ketdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43647_1|ellik qadamlar yurgach og'riq kuchaydi ko'ngli aynidi|ellik qadamlar yurgach og'riq kuchaydi ko'ngli aynidi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43648_1|devorga suyanib o'tirdi|devorga suyanib o'tirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43650_1|chiqib ketganim yaxshi bo'ldi|chiqib ketganim yaxshi bo'ldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43651_1|ancha yurib qo'ydim shekilli|ancha yurib qo'ydim shekilli
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43652_1|u kelgan yo'liga qaradi|u kelgan yo'liga qaradi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43653_1|shunda asadbekning darvozasidan bir yigit chiqqanini ko'rdi|shunda asadbekning darvozasidan bir yigit chiqqanini ko'rdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43654_1|yigit yon atrofga alanglab oldi da mashinaga o'tirdi|yigit yon atrofga alanglab oldi da mashinaga o'tirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43655_1|arining uyasi buzilibdi ku kim cho'p suqibdi deb o'yladi u|arining uyasi buzilibdi ku kim cho'p suqibdi deb o'yladi u
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43656_1|xayolidagi bu savolga javob topmay turib ro'parasida mashina to'xtadi|xayolidagi bu savolga javob topmay turib ro'parasida mashina to'xtadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43659_1|menga rahm qildilarmi deb g'ijindi elchin|menga rahm qildilarmi deb g'ijindi elchin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43660_1|mehribonchiligingni onangga qil|mehribonchiligingni onangga qil
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43661_1|u o'rnidan turib yura boshladi|u o'rnidan turib yura boshladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43662_1|yigit uning qadam olishiga moslab mashinani sekin yurg'izdi|yigit uning qadam olishiga moslab mashinani sekin yurg'izdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43663_1|mashina eshigini yopmadi|mashina eshigini yopmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43665_1|elchin bu tomosha atrofdagilar uchun kulgi bo'larini anglab to'xtadi|elchin bu tomosha atrofdagilar uchun kulgi bo'larini anglab to'xtadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43668_1|olib borib qo'y deyishgan|olib borib qo'y deyishgan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43670_1|o'ldirib kel deyishgan bo'lsa o'ldirib keladi|o'ldirib kel deyishgan bo'lsa o'ldirib keladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43671_1|bir jihatdan shunisi ham durust mushkulimni oson qiladi|bir jihatdan shunisi ham durust mushkulimni oson qiladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43672_1|shu fikrda mashinaga o'tirdi|shu fikrda mashinaga o'tirdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43673_1|yigit qayoqqa olib borib qo'yay deb so'rab ham o'tirmadi|yigit qayoqqa olib borib qo'yay deb so'rab ham o'tirmadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43674_1|hatto baribir o'tirar ekansan noz qilishing nimasi edi degan ma'noda qarab ham qo'ymadi|hatto baribir o'tirar ekansan noz qilishing nimasi edi degan ma'noda qarab ham qo'ymadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43675_1|bu sodiq laychalarning hammasi kamgap a deb o'yladi elchin|bu sodiq laychalarning hammasi kamgap a deb o'yladi elchin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43676_1|u o'rindiqqa yastanib o'tirib chuqur chuqur nafas oldi|u o'rindiqqa yastanib o'tirib chuqur chuqur nafas oldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43677_1|og'riq chekinishi bilan fikri tiniqlasha boshladi|og'riq chekinishi bilan fikri tiniqlasha boshladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43678_1|xayoliga yangi yil kechasi keldi|xayoliga yangi yil kechasi keldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43680_1|jingalak sochli yigit|jingalak sochli yigit
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43681_1|salom alik yo'q siz falonchimisiz deyish yo'q|salom alik yo'q siz falonchimisiz deyish yo'q
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43682_1|sizni bek aka chaqiryaptilar deb mashinasi tomon yurgan edi|sizni bek aka chaqiryaptilar deb mashinasi tomon yurgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43683_1|hozir ham bilmaydi|hozir ham bilmaydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43684_1|yigit yo'ldan ko'zini uzmagani holda labiga sigaret qistirib tutatdi|yigit yo'ldan ko'zini uzmagani holda labiga sigaret qistirib tutatdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43685_1|dimog'iga tutun urilib elchinning ham chekkisi keldi|dimog'iga tutun urilib elchinning ham chekkisi keldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43687_1|bu ohangdan o'zi ham taajjublandi|bu ohangdan o'zi ham taajjublandi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43689_1|sen xo'jayinning kuyovisan deb taskin berdi ichki bir ovoz|sen xo'jayinning kuyovisan deb taskin berdi ichki bir ovoz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43690_1|shu onning o'zida boshqa bir ovoz qitmirlik bilan o'limga mahkum etilgan kuyovsan deb qo'ydi|shu onning o'zida boshqa bir ovoz qitmirlik bilan o'limga mahkum etilgan kuyovsan deb qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43691_1|chakishdan ol deb buyurdi elchin balandroq ovozda|chakishdan ol deb buyurdi elchin balandroq ovozda
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43692_1|yigit endi uzr ma'nosida qarab olar deb kutgan edi|yigit endi uzr ma'nosida qarab olar deb kutgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43693_1|yo'q qaramadi|yo'q qaramadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43694_1|indamay sigaret qutisini uzatdi|indamay sigaret qutisini uzatdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43695_1|yangi yil kechasi ham shunday bo'lgan edi|yangi yil kechasi ham shunday bo'lgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43696_1|uni kim o'ldirgan ekan deb o'yladi elchin|uni kim o'ldirgan ekan deb o'yladi elchin
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43697_1|o'ldirish niyatim borligini asadbek qayoqdan bildi yo taxmin qildimi elchin asadbekning niyatini anglamas edi|o'ldirish niyatim borligini asadbek qayoqdan bildi yo taxmin qildimi elchin asadbekning niyatini anglamas edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43698_1|birgina u emas boshqalar ham ko'pincha g'aflatda qolishardi|birgina u emas boshqalar ham ko'pincha g'aflatda qolishardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43699_1|bular jinni bo'lib qolgan|bular jinni bo'lib qolgan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43700_1|xayoliga kelgan gapni beixtiyor ovoz chiqarib aytdi|xayoliga kelgan gapni beixtiyor ovoz chiqarib aytdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43701_1|yigit bu gapni eshitib qarab qo'yganday bo'ldi|yigit bu gapni eshitib qarab qo'yganday bo'ldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43703_1|akalaring jinni bo'lib qolishibdi|akalaring jinni bo'lib qolishibdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43704_1|bu gapni aytishga aytdi yu yigit bexos tarsaki tortib yuborarmikin deb kutdi|bu gapni aytishga aytdi yu yigit bexos tarsaki tortib yuborarmikin deb kutdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43706_1|o'zim jinniman|o'zim jinniman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43707_1|bulardan o'chimni olgunimcha jinni bo'laman shekilli|bulardan o'chimni olgunimcha jinni bo'laman shekilli
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43708_1|mashina ko'chasiga burilgach demak o'ldirish haqida buyruq olmabdi deb o'yladi|mashina ko'chasiga burilgach demak o'ldirish haqida buyruq olmabdi deb o'yladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43710_1|mashina darvozasi ro'parasida to'xtadi|mashina darvozasi ro'parasida to'xtadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43711_1|tushing ham demadi keldik ham demadi|tushing ham demadi keldik ham demadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43713_1|bu bola bilan pachakilashganimdan nima foyda deb o'ylab mashinadan tushdi|bu bola bilan pachakilashganimdan nima foyda deb o'ylab mashinadan tushdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43714_1|u eshikni yopishga ham ulgurmay mashina xuddi poygaga shoshilganday shasht bilan qo'zg'oldi|u eshikni yopishga ham ulgurmay mashina xuddi poygaga shoshilganday shasht bilan qo'zg'oldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43715_1|elchin darvozaga yaqinlashib kalit soladigan yerga qistirilgan qog'ozni ko'rdi|elchin darvozaga yaqinlashib kalit soladigan yerga qistirilgan qog'ozni ko'rdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43716_1|shumtakalarning qilig'i deb o'ylab qog'ozni oldi|shumtakalarning qilig'i deb o'ylab qog'ozni oldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43717_1|qog'oz hafsala bilan naycha kabi o'ralganidan fahmladiki bu bolalar ishi emas|qog'oz hafsala bilan naycha kabi o'ralganidan fahmladiki bu bolalar ishi emas
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43718_1|qog'ozni ochib chap tomonga qiyshaytiribroq yozilgan harflarni tanib jilmayib qo'ydi|qog'ozni ochib chap tomonga qiyshaytiribroq yozilgan harflarni tanib jilmayib qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43719_1|akobiru otarchi al hofizu habibul asadbek|akobiru otarchi al hofizu habibul asadbek
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43721_1|ko'payishib qolganmish to'ylaringiz|ko'payishib qolganmish to'ylaringiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43722_1|pulga to'lib qolgandir cho'ntagingiz|pulga to'lib qolgandir cho'ntagingiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43723_1|begingizdan izn tekkan mahallarda|begingizdan izn tekkan mahallarda
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43724_1|biz ham ko'rib qolaylik bo'ylaringiz|biz ham ko'rib qolaylik bo'ylaringiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43725_1|adoyi anvaringiz|adoyi anvaringiz
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43726_1|bu satrlarni o'qigach uning chehrasi ochildi|bu satrlarni o'qigach uning chehrasi ochildi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43727_1|kayfiyati yaxshi ekan shoirning deb qo'ydi|kayfiyati yaxshi ekan shoirning deb qo'ydi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43728_1|do'stini ko'rgisi keldi|do'stini ko'rgisi keldi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43729_1|unda ko'rgisi kelgan ammo borib ko'rish imkoni yo'q edi|unda ko'rgisi kelgan ammo borib ko'rish imkoni yo'q edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43730_1|hozir ham ko'rgisi kelyapti imkoniyati ham bor|hozir ham ko'rgisi kelyapti imkoniyati ham bor
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43731_1|ammo borishni istamadi|ammo borishni istamadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43732_1|yana ixrab sixrab o'tirmay kechroq borarman degan qarorga kelib uyiga kirdi da divanga cho'zildi|yana ixrab sixrab o'tirmay kechroq borarman degan qarorga kelib uyiga kirdi da divanga cho'zildi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43733_1|ertaklarda makoniga uchib kelgan dev yoki ajdaho uf f|ertaklarda makoniga uchib kelgan dev yoki ajdaho uf f
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43734_1|odam isi kelyapti|odam isi kelyapti
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43735_1|deb chaqirilmagan mehmonni izlashga tushadi|deb chaqirilmagan mehmonni izlashga tushadi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43736_1|mana shu ostonani hatlab o'tishi ajal eshigini qoqish bilan barobar bo'lganini bilardi|mana shu ostonani hatlab o'tishi ajal eshigini qoqish bilan barobar bo'lganini bilardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43737_1|zaynabning ko'z yoshlari to'kkanini anglardi|zaynabning ko'z yoshlari to'kkanini anglardi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43738_1|balki jamshidning sen uchun men o'ch olaman|balki jamshidning sen uchun men o'ch olaman
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43740_1|agar seni himoya qiladigan erkak zoti qirilib bitsa o'zing o'ch olasan|agar seni himoya qiladigan erkak zoti qirilib bitsa o'zing o'ch olasan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43742_1|shu divandan uch qadamgina narida jamshid turgan edi|shu divandan uch qadamgina narida jamshid turgan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43743_1|qasam ichganidan keyin zaynab uning bo'ynidan quchib o'pib qo'ygan edi|qasam ichganidan keyin zaynab uning bo'ynidan quchib o'pib qo'ygan edi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43744_1|alhol ertak boshqa hayot boshqa|alhol ertak boshqa hayot boshqa
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43745_1|inson sezgilari esa chegaralangan|inson sezgilari esa chegaralangan
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43746_1|elchin divanga cho'zilib bitta yostiqni qorniga bosdi|elchin divanga cho'zilib bitta yostiqni qorniga bosdi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43747_1|shu foyda qildimi har nechuk og'riq nari chekindi|shu foyda qildimi har nechuk og'riq nari chekindi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43748_1|badani orom ola boshlagach fikrlari yanada tiniqlasha bordi|badani orom ola boshlagach fikrlari yanada tiniqlasha bordi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43749_1|hali mashinada ekanida uyg'ongan o'ylari yana xayolini band eta boshladi|hali mashinada ekanida uyg'ongan o'ylari yana xayolini band eta boshladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43750_1|qanday haromxo'r edi u deb o'yladi|qanday haromxo'r edi u deb o'yladi
+/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/train/1459541555_1_43751_1|haromxo'r edi u ha iflos edi ablah edi|haromxo'r edi u ha iflos edi ablah edi

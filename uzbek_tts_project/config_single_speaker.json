@@ -1,0 +1,45 @@
+{
+  "model": "vits",
+  "run_name": "uzbek_tts_single_speaker",
+  "run_description": "Uzbek TTS - Single Speaker Training",
+
+  "audio": {
+    "sample_rate": 22050,
+    "fft_size": 1024,
+    "win_length": 1024,
+    "hop_length": 256,
+    "num_mels": 80,
+    "mel_fmin": 0,
+    "mel_fmax": null
+  },
+
+  "batch_size": 32,
+  "eval_batch_size": 16,
+  "num_loader_workers": 8,
+  "num_eval_loader_workers": 4,
+  "run_eval": true,
+  "test_delay_epochs": 5,
+
+  "epochs": 2000,
+  "text_cleaner": "basic_cleaners",
+  "use_phonemes": false,
+  "phoneme_language": "en-us",
+  "print_step": 25,
+  "print_eval": false,
+  "mixed_precision": true,
+
+  "output_path": "/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_tts_project/training_output",
+
+  "datasets": [
+    {
+      "formatter": "ljspeech",
+      "meta_file_train": "/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_tts_project/metadata/train_single.txt",
+      "meta_file_val": "/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_tts_project/metadata/dev_single.txt",
+      "path": "/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/"
+    }
+  ],
+
+  "test_sentences": [
+    ["Salom, men o'zbek tilida gaplashaman"]
+  ]
+}
