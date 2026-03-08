@@ -28,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # === CONFIG ===
-BOT_TOKEN = "8347822379:AAGwgicXcBu7FUzsaB3mnmUk1JT43Ol7GpA"
+BOT_TOKEN = "Your token"
 AUDIO_DIR = Path("/mnt/c/Users/Admin/Desktop/voice_dataset/ISSAI_USC/uzbek_voice_api/telegram_audio")
 AUDIO_DIR.mkdir(exist_ok=True)
 
